@@ -366,7 +366,7 @@ const About = () => {
         </motion.section>
       </div>
 
-      <Footer />
+
       <GoToTop />
     </div>
   );
