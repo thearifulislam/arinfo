@@ -406,7 +406,7 @@ const Contact = () => {
         </section>
       </main>
 
-      <Footer />
+
 
       {/* Add the GoToTop button */}
       <GoToTop />
