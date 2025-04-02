@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Brush, Layers, Edit3, Palette, Framer, Users, LineChart, Globe, ArrowRight } from 'lucide-react';
 import Navbar from '../components/layout/Navbar';
@@ -16,6 +16,11 @@ interface Service {
 
 const Services = () => {
   const [hoveredService, setHoveredService] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
 
   const mainServices: Service[] = [
     {

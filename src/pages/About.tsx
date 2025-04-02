@@ -105,7 +105,7 @@ const About = () => {
                     { name: "Business Card Design", link: "/services/ui-ux-design" },
                     { name: "Flyer Design", link: "/services/flyer-design" },
                     { name: "Brochure Design", link: "/services/brochure-design" },
-                    
+
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-[rgb(56,132,255)] mr-2 mt-0.5 flex-shrink-0" />
@@ -171,26 +171,26 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-  {skills.map((skill, index) => (
-    <div key={index} className="glass-card p-6 rounded-xl">
-      <div className="flex justify-between items-center mb-3">
-        <h3 className="font-bold">{skill.name}</h3>
-        <span className="text-text-[rgb(56,132,255)] font-medium">
-          {skill.percentage}%
-        </span>
-      </div>
-      <div className="relative w-full h-2 bg-white/10 rounded-full overflow-hidden">
-        <motion.div
-          className="absolute top-0 left-0 h-full bg-[rgb(56,132,255)] rounded-full"
-          initial={{ width: "0%" }}
-          whileInView={{ width: `${skill.percentage}%` }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-        ></motion.div>
-      </div>
-    </div>
-  ))}
-</div>
+            {skills.map((skill, index) => (
+              <div key={index} className="glass-card p-6 rounded-xl">
+                <div className="flex justify-between items-center mb-3">
+                  <h3 className="font-bold">{skill.name}</h3>
+                  <span className="text-text-[rgb(56,132,255)] font-medium">
+                    {skill.percentage}%
+                  </span>
+                </div>
+                <div className="relative w-full h-2 bg-white/10 rounded-full overflow-hidden">
+                  <motion.div
+                    className="absolute top-0 left-0 h-full bg-[rgb(56,132,255)] rounded-full"
+                    initial={{ width: "0%" }}
+                    whileInView={{ width: `${skill.percentage}%` }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
+                  ></motion.div>
+                </div>
+              </div>
+            ))}
+          </div>
         </motion.section>
 
         {/* Stats Counter Section */}
@@ -226,13 +226,16 @@ const About = () => {
 
         {/* Education & Experience */}
         <motion.section
-          className="mb-32"
+          className="mb-32 relative overflow-hidden rounded-lg"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <div className="text-center mb-16">
+          {/* Gradient Background with Blur */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[rgb(56,132,255)]/20 via-purple-500/10 to-blue-500/20 backdrop-blur-lg -z-10"></div>
+
+          <div className="text-center mb-16 relative z-10">
             <span className="text-text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
               My Journey
             </span>
@@ -243,9 +246,9 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 relative z-10">
             {/* Left Column - Experience */}
-            <div>
+            <div className="bg-dark-card p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-8 flex items-center">
                 <span className="text-text-[rgb(56,132,255)] mr-3">
                   <Briefcase className="w-6 h-6" />
@@ -253,19 +256,26 @@ const About = () => {
                 Work Experience
               </h3>
 
-              <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-text-[rgb(56,132,255)]/30">
+              <div className="space-y-8">
                 {[
                   {
                     period: "2018 - Present",
                     title: "Graphic Designer",
-                    company: "Learning And Earning Delevopment Project",
+                    company: "Learning And Earning Development Project",
                     description:
                       "Leading brand identity projects for Fortune 500 companies and startups. Overseeing a team of designers and ensuring consistent quality across deliverables.",
+                  },
+                  {
+                    period: "2016 - 2018",
+                    title: "Junior Designer",
+                    company: "Creative Agency",
+                    description:
+                      "Assisted in creating visual designs for marketing campaigns and branding projects.",
                   },
                 ].map((item, index) => (
                   <motion.div
                     key={index}
-                    className="relative pl-8"
+                    className="relative p-6 rounded-lg bg-dark"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -284,7 +294,7 @@ const About = () => {
             </div>
 
             {/* Right Column - Education */}
-            <div>
+            <div className="bg-dark-card p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-8 flex items-center">
                 <span className="text-text-[rgb(56,132,255)] mr-3">
                   <GraduationCap className="w-6 h-6" />
@@ -292,19 +302,17 @@ const About = () => {
                 Education
               </h3>
 
-              <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-text-[rgb(56,132,255)]/30">
+              <div className="space-y-8">
                 {[
                   {
-                    period: "2024 - continue",
+                    period: "2024 - Continue",
                     title: "BSC in CSE",
-                    institution: "Northarn Univercity of Business & Technology",
+                    institution: "Northern University of Business & Technology",
                   },
                   {
                     period: "2019 - 2023",
-                    title: "Diploma In Computer Engineering",
-                    institution: "BCMC College Of Engineering & Technology",
-                    // description:
-                    //   "Studied fundamentals of design, color theory, typography, and multimedia design. Completed internship at leading design studio.",
+                    title: "Diploma in Computer Engineering",
+                    institution: "BCMC College of Engineering & Technology",
                   },
                   {
                     period: "2019",
@@ -314,7 +322,7 @@ const About = () => {
                 ].map((item, index) => (
                   <motion.div
                     key={index}
-                    className="relative pl-8"
+                    className="relative p-6 rounded-lg bg-dark"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -325,10 +333,7 @@ const About = () => {
                       {item.period}
                     </span>
                     <h4 className="text-xl font-bold mt-1">{item.title}</h4>
-                    <p className="text-white/60 text-sm mb-2">
-                      {item.institution}
-                    </p>
-                    {/* <p className="text-white/80 text-sm">{item.description}</p> */}
+                    <p className="text-white/60 text-sm mb-2">{item.institution}</p>
                   </motion.div>
                 ))}
               </div>

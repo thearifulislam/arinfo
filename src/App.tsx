@@ -1,25 +1,27 @@
 import { useState, useEffect } from "react";
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import ScrollToTop from "./components/ScrollToTop";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import Layout from "./components/layout/Layout";
+import IntroLogo from "./components/animation/IntroLogo";
+import GoToTop from "./components/home/GoToTop";
+import Home from "./pages/Index";
+import Portfolio from "./pages/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Portfolio from "./pages/Portfolio";
-import About from "./pages/About";
-import IntroLogo from "./components/animation/IntroLogo";
-import GoToTop from "./components/home/GoToTop";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
-import Layout from "./components/layout/Layout";
+import Dashboard from "./pages/Dashboard";
+import About from "./pages/About";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -43,17 +45,17 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Toaster />
         <Sonner />
         <AnimatePresence mode="wait">
           {loading ? (
             <IntroLogo key="intro" onComplete={handleIntroComplete} />
           ) : (
-            <BrowserRouter>
+            <Router>
+              <ScrollToTop /> {/* Ensures the page scrolls to the top on route change */}
+              <Navbar />
               <Layout>
-                <GoToTop />
                 <Routes>
-                  <Route path="/" element={<Index />} />
+                  <Route path="/" element={<Home />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/portfolio/:id" element={<PortfolioDetails />} />
                   <Route path="/services" element={<Services />} />
@@ -67,7 +69,9 @@ const App = () => {
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </Layout>
-            </BrowserRouter>
+
+              <GoToTop />
+            </Router>
           )}
         </AnimatePresence>
       </TooltipProvider>
