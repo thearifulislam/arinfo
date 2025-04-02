@@ -98,6 +98,15 @@ const Footer = () => {
 
               <li>
                 <Link
+                  to="/blog"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  Blog
+                </Link>
+              </li>
+
+              <li>
+                <Link
                   to="/contact"
                   className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
                 >
