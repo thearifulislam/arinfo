@@ -232,7 +232,7 @@ import minimalist2 from "../assets/business-card/minimalist/2/1.jpg"
 // for letterhead
 
 import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg"
-import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/Minimalist Corporate Letterhead.jpg"
+import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg"
 import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg"
 import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg"
 import modernandcorporate1 from "../assets/letterhead/modern&corporate/1/modern and corporate letterhead design.jpg"
