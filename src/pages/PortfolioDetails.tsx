@@ -217,6 +217,10 @@ import momentum20 from "../assets/logo-design/abstrack-mark/men-fashion/1/20.jpg
 import momentum21 from "../assets/logo-design/abstrack-mark/men-fashion/1/21.jpg"
 import momentum22 from "../assets/logo-design/abstrack-mark/men-fashion/1/22.jpg"
 
+import bloodDonation1 from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg"
+import bloodDonation2 from "../assets/logo-design/combination-mark/health-care-logo/1/2.jpg"
+import bloodDonation3 from "../assets/logo-design/combination-mark/health-care-logo/1/3.jpg"
+import bloodDonation4 from "../assets/logo-design/combination-mark/health-care-logo/1/4.jpg"
 
 
 
@@ -248,6 +252,10 @@ import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg"
 import facebookcover2 from "../assets/social-cover/facebook-cover/1/2.jpg"
 import facebookcover3 from "../assets/social-cover/facebook-cover/1/3.jpg"
 
+
+// for banner
+
+import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg"
 
 
 
@@ -1000,6 +1008,55 @@ const projects: Project[] = [
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
     images: [
       facebookcover1,
+    ],
+  },
+
+
+
+  {
+    id: "promotional-banner-1",
+    title: "Winter Special: Super Sale is Here",
+    category: "Promotional Banner Design",
+    client: "For prortfolio",
+    date: "June 2024",
+    useorunuse: "Unuse logo",
+    description:
+      "High-end photo retouching for a luxury cosmetics brand's product line.",
+    challenge:
+      "Luxury Cosmetics needed professional product photography editing for their new skincare line. The images needed to highlight product details and textures while maintaining a consistent, premium aesthetic across the entire collection.",
+    solution:
+      "I performed advanced photo retouching techniques to enhance product details without making the images look artificially manipulated. This included color correction, removing imperfections, adjusting lighting, and creating realistic reflections. Special attention was paid to texture details and maintaining color accuracy.",
+    outcome:
+      "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
+    tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
+    images: [
+      promotionalbanner1,
+    ],
+  },
+
+
+
+  {
+    id: "combination-mark-health-care-logo-1",
+    title: "Donate Blood, Save Lives",
+    category: "Combination Mark Logo Design",
+    client: "For prortfolio",
+    date: "June 2024",
+    useorunuse: "Unuse logo",
+    description:
+      "High-end photo retouching for a luxury cosmetics brand's product line.",
+    challenge:
+      "Luxury Cosmetics needed professional product photography editing for their new skincare line. The images needed to highlight product details and textures while maintaining a consistent, premium aesthetic across the entire collection.",
+    solution:
+      "I performed advanced photo retouching techniques to enhance product details without making the images look artificially manipulated. This included color correction, removing imperfections, adjusting lighting, and creating realistic reflections. Special attention was paid to texture details and maintaining color accuracy.",
+    outcome:
+      "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
+    tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
+    images: [
+      bloodDonation1,
+      bloodDonation2,
+      bloodDonation3,
+      bloodDonation4,
     ],
   },
 

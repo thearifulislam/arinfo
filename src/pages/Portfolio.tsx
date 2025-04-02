@@ -17,6 +17,7 @@ import ecogrow from "../assets/logo-design/combination-mark/nature-logo/2/1.jpg"
 import winnest from "../assets/logo-design/wordmark/real-estate/1/1.jpg"
 import nexus from "../assets/logo-design/combination-mark/tech-logo/1/1.jpg"
 import momentum from "../assets/logo-design/abstrack-mark/men-fashion/1/1.jpg"
+import bloodDonation from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg"
 
 
 
@@ -43,6 +44,10 @@ import modernandminimalistcorporate1 from "../assets/letterhead/modern&minimalis
 
 import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg"
 
+
+
+// for banner
+import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg"
 
 
 
@@ -304,6 +309,25 @@ const Portfolio = () => {
       slug: "facebook-cover-1",
     },
 
+    {
+      id: 24,
+      titles: ["Winter Special: Super Sale is Here"],
+      categories: ["banner"],
+      subCategories: ["promotional"],
+      tags: ["Banner", "Promotional"],
+      image: promotionalbanner1,
+      slug: "promotional-banner-1",
+    },
+
+    {
+      id: 25,
+      titles: ["Donate Blood, Save Lives"],
+      categories: ["logo-design"],
+      subCategories: ["medical", "combination-mark"],
+      tags: ["Logo Design", "Combination Mark", "Medical"],
+      image: bloodDonation,
+      slug: "combination-mark-health-care-logo-1",
+    },
 
 
   ];
@@ -317,6 +341,7 @@ const Portfolio = () => {
     { value: "business-card", label: "Business Card" },
     { value: "letterhead", label: "Letterhead" },
     { value: "social-cover", label: "Social-cover" },
+    { value: "banner", label: "Banner" },
 
   ];
 
@@ -337,6 +362,7 @@ const Portfolio = () => {
       { value: "abstract-mark", label: "Abstract Mark" },
       { value: "lettermark", label: "Lettermark" },
       { value: "combination-mark", label: "Combination Mark" },
+      { value: "medical", label: "Medical" },
     ],
     "business-card": [
       { value: "all", label: "All" },
@@ -355,6 +381,10 @@ const Portfolio = () => {
     "social-cover": [
       { value: "all", label: "All" },
       { value: "facebook-cover", label: "Facebook Cover" },
+    ],
+    "banner": [
+      { value: "all", label: "All" },
+      { value: "promotional", label: "Promotional" },
     ],
 
   };
