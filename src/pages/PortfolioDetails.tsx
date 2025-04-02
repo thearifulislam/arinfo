@@ -236,9 +236,9 @@ import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1
 import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg"
 import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg"
 import modernandcorporate1 from "../assets/letterhead/modern&corporate/1/modern and corporate letterhead design.jpg"
-import modernanddynamiccorporate1 from "../assets/letterhead/modern&dynamic-corporate/1/Modern and Dynamic Corporate Letterhead.jpg"
-import modernandgeometriccorporate1 from "../assets/letterhead/modern&geometric-corporate/1/Modern and Geometric Corporate Letterhead.jpg"
-import modernandminimalistcorporate1 from "../assets/letterhead/modern&minimalist-corporate/1/Modern and Minimalist Corporate Letterhead.jpg"
+import modernanddynamiccorporate1 from "../assets/letterhead/modern&dynamic-corporate/1/modern and dynamic corporate letterhead.jpg"
+import modernandgeometriccorporate1 from "../assets/letterhead/modern&geometric-corporate/1/modern and geometric corporate letterhead.jpg"
+import modernandminimalistcorporate1 from "../assets/letterhead/modern&minimalist-corporate/1/modern and minimalist corporate letterhead.jpg"
 
 
 
