@@ -280,12 +280,16 @@ interface Project {
 
 const projects: Project[] = [
 
+ 
+
+
+
   {
-    id: "Player-Logo-Design-1",
+    id: "player-logo-design-1",
     title: "Player Logo Design",
     category: "Logo Design",
     client: "Portfolio",
-    date: "April 2024",
+    date: "October 2023",
     useorunuse: "Unuse logo",
     description:
       "A complete user interface and experience design for a mental wellness mobile application.",
@@ -317,6 +321,10 @@ const projects: Project[] = [
       playerlogo17,
     ],
   },
+
+
+
+
 
   {
     id: "lettermark-W-Logo-1",
@@ -1233,7 +1241,6 @@ const PortfolioDetails = () => {
         </section>
       </main>
 
-      <Footer />
     </div>
   );
 };

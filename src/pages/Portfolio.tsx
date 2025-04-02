@@ -102,7 +102,7 @@ const Portfolio = () => {
       subCategories: ["logo-design", "identity", "abstract-mark"],
       tags: ["Logo Design", "Abstract Mark"],
       image: playerlogo01,
-      slug: "Player-Logo-Design-1",
+      slug: "player-logo-design-1",
     },
     {
       id: 2,
@@ -570,14 +570,16 @@ const Portfolio = () => {
                 className="portfolio-card group"
                 variants={fadeInUp}
               >
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.titles[0]} // Use the first title as alt text
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
+                <Link to={`/portfolio/${project.slug}`}> {/* Wrap the image with Link */}
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img
+                      src={project.image}
+                      alt={project.titles[0]} // Use the first title as alt text
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                </Link>
 
                 <div className="p-6">
                   <div className="flex flex-wrap gap-2 mb-3">
