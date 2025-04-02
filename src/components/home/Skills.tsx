@@ -13,9 +13,8 @@ const Skills = () => {
     { name: "Adobe Photoshop", percentage: 90 },
     { name: "Adobe Illustrator", percentage: 95 },
     { name: "Figma", percentage: 90 },
-    { name: "Branding", percentage: 80 },
-    { name: "UI/UX Design", percentage: 85 },
-    { name: "Motion Graphics", percentage: 70 },
+    { name: "Adobe XD", percentage: 80 },
+    { name: "Adobe Indesign", percentage: 85 },
   ];
 
   useEffect(() => {

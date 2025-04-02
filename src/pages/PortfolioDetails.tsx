@@ -1240,7 +1240,7 @@ const PortfolioDetails = () => {
           </div>
         </section>
       </main>
-
+      <Footer />
     </div>
   );
 };

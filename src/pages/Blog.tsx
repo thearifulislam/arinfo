@@ -170,6 +170,7 @@ const Blog = () => {
           )}
         </div>
       </main>
+            <Footer />
 
     </>
   );

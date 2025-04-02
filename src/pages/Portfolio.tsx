@@ -611,7 +611,7 @@ const Portfolio = () => {
         )}
       </div>
 
-
+      <Footer />
       {/* Add the GoToTop button */}
       <GoToTop />
     </div>

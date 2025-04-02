@@ -296,7 +296,7 @@ const Services = () => {
         </section>
       </main>
       
-
+      <Footer />
       <GoToTop />
     </div>
   );

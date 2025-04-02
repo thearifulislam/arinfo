@@ -366,7 +366,9 @@ const About = () => {
         </motion.section>
       </div>
 
+      <Footer />
 
+      {/* Back to Top Button */}
       <GoToTop />
     </div>
   );

@@ -5,7 +5,7 @@ import GoToTop from "../home/GoToTop"; // Import the GoToTop component
 
 const About = () => {
   const achievements = [
-    "4+ years of professional design experience",
+    "3+ years of professional design experience",
     "Worked with 60+ clients worldwide",
     "Completed 97+ successful projects",
     "Featured on top design platforms",
@@ -46,7 +46,7 @@ const About = () => {
             {/* Content Column */}
             <div>
               <span className="text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
-                About Me
+                About
               </span>
               <h2 className="text-4xl font-bold mb-6">
                 Turning Creative Ideas Into Meaningful Designs
