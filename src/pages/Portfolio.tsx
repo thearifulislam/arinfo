@@ -18,6 +18,7 @@ import winnest from "../assets/logo-design/wordmark/real-estate/1/1.jpg"
 import nexus from "../assets/logo-design/combination-mark/tech-logo/1/1.jpg"
 import momentum from "../assets/logo-design/abstrack-mark/men-fashion/1/1.jpg"
 import bloodDonation from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg"
+import boldpath from "../assets/logo-design/brand-guidelines/letter-bp/1/1.jpg"
 
 
 
@@ -328,6 +329,15 @@ const Portfolio = () => {
       image: bloodDonation,
       slug: "combination-mark-health-care-logo-1",
     },
+    {
+      id: 26,
+      titles: ["BoldPath Brand Guidelines – Defining Our Identity"],
+      categories: ["brand-guidelines", "logo-design", "branding"],
+      subCategories: ["lettermark",],
+      tags: ["Logo Design", "Brand Guidelines", "Lettermark"],
+      image: boldpath,
+      slug: "boldpath-brand-guidelines-1",
+    },
 
 
   ];
@@ -336,12 +346,12 @@ const Portfolio = () => {
     { value: "all", label: "All Projects" },
     { value: "branding", label: "Branding" },
     { value: "print", label: "Print Design" },
-    { value: "ui-ux", label: "UI/UX Design" },
     { value: "logo-design", label: "Logo Design" },
     { value: "business-card", label: "Business Card" },
     { value: "letterhead", label: "Letterhead" },
     { value: "social-cover", label: "Social-cover" },
     { value: "banner", label: "Banner" },
+    { value: "brand-guidelines", label: "Brand Guidelines" },
 
   ];
 
@@ -351,11 +361,6 @@ const Portfolio = () => {
       { value: "all", label: "All" },
       { value: "business-card", label: "Business Card" },
       { value: "stationery", label: "Stationery" },
-    ],
-    "ui-ux": [
-      { value: "all", label: "All" },
-      { value: "web-design", label: "Web Design" },
-      { value: "mobile-design", label: "Mobile Design" },
     ],
     "logo-design": [
       { value: "all", label: "All" },
@@ -385,6 +390,10 @@ const Portfolio = () => {
     "banner": [
       { value: "all", label: "All" },
       { value: "promotional", label: "Promotional" },
+    ],
+    "brand-guidelines": [
+      { value: "all", label: "All" },
+      { value: "lettermark", label: "Lettermark" },
     ],
 
   };

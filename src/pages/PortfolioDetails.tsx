@@ -222,6 +222,54 @@ import bloodDonation2 from "../assets/logo-design/combination-mark/health-care-l
 import bloodDonation3 from "../assets/logo-design/combination-mark/health-care-logo/1/3.jpg"
 import bloodDonation4 from "../assets/logo-design/combination-mark/health-care-logo/1/4.jpg"
 
+import boldpath from "../assets/logo-design/brand-guidelines/letter-bp/1/1.jpg"
+import boldpath2 from "../assets/logo-design/brand-guidelines/letter-bp/1/2.jpg"
+import boldpath3 from "../assets/logo-design/brand-guidelines/letter-bp/1/3.jpg"
+import boldpath4 from "../assets/logo-design/brand-guidelines/letter-bp/1/4.jpg"
+import boldpath5 from "../assets/logo-design/brand-guidelines/letter-bp/1/5.jpg"
+import boldpath6 from "../assets/logo-design/brand-guidelines/letter-bp/1/6.jpg"
+import boldpath7 from "../assets/logo-design/brand-guidelines/letter-bp/1/7.jpg"
+import boldpath8 from "../assets/logo-design/brand-guidelines/letter-bp/1/8.jpg"
+import boldpath9 from "../assets/logo-design/brand-guidelines/letter-bp/1/9.jpg"
+import boldpath10 from "../assets/logo-design/brand-guidelines/letter-bp/1/10.jpg"
+import boldpath11 from "../assets/logo-design/brand-guidelines/letter-bp/1/11.jpg"
+import boldpath12 from "../assets/logo-design/brand-guidelines/letter-bp/1/12.jpg"
+import boldpath13 from "../assets/logo-design/brand-guidelines/letter-bp/1/13.jpg"
+import boldpath14 from "../assets/logo-design/brand-guidelines/letter-bp/1/14.jpg"
+import boldpath15 from "../assets/logo-design/brand-guidelines/letter-bp/1/15.jpg"
+import boldpath16 from "../assets/logo-design/brand-guidelines/letter-bp/1/16.jpg"
+import boldpath17 from "../assets/logo-design/brand-guidelines/letter-bp/1/17.jpg"
+import boldpath18 from "../assets/logo-design/brand-guidelines/letter-bp/1/18.jpg"
+import boldpath19 from "../assets/logo-design/brand-guidelines/letter-bp/1/19.jpg"
+import boldpath20 from "../assets/logo-design/brand-guidelines/letter-bp/1/20.jpg"
+import boldpath21 from "../assets/logo-design/brand-guidelines/letter-bp/1/21.jpg"
+import boldpath22 from "../assets/logo-design/brand-guidelines/letter-bp/1/22.jpg"
+import boldpath23 from "../assets/logo-design/brand-guidelines/letter-bp/1/23.jpg"
+import boldpath24 from "../assets/logo-design/brand-guidelines/letter-bp/1/24.jpg"
+import boldpath25 from "../assets/logo-design/brand-guidelines/letter-bp/1/25.jpg"
+import boldpath26 from "../assets/logo-design/brand-guidelines/letter-bp/1/26.jpg"
+import boldpath27 from "../assets/logo-design/brand-guidelines/letter-bp/1/27.jpg"
+import boldpath28 from "../assets/logo-design/brand-guidelines/letter-bp/1/28.jpg"
+import boldpath29 from "../assets/logo-design/brand-guidelines/letter-bp/1/29.jpg"
+import boldpath30 from "../assets/logo-design/brand-guidelines/letter-bp/1/30.jpg"
+import boldpath31 from "../assets/logo-design/brand-guidelines/letter-bp/1/31.jpg"
+import boldpath32 from "../assets/logo-design/brand-guidelines/letter-bp/1/32.jpg"
+import boldpath33 from "../assets/logo-design/brand-guidelines/letter-bp/1/33.jpg"
+import boldpath34 from "../assets/logo-design/brand-guidelines/letter-bp/1/34.jpg"
+import boldpath35 from "../assets/logo-design/brand-guidelines/letter-bp/1/35.jpg"
+import boldpath36 from "../assets/logo-design/brand-guidelines/letter-bp/1/36.jpg"
+import boldpath37 from "../assets/logo-design/brand-guidelines/letter-bp/1/37.jpg"
+import boldpath38 from "../assets/logo-design/brand-guidelines/letter-bp/1/38.jpg"
+import boldpath39 from "../assets/logo-design/brand-guidelines/letter-bp/1/39.jpg"
+import boldpath40 from "../assets/logo-design/brand-guidelines/letter-bp/1/40.jpg"
+import boldpath41 from "../assets/logo-design/brand-guidelines/letter-bp/1/41.jpg"
+import boldpath42 from "../assets/logo-design/brand-guidelines/letter-bp/1/42.jpg"
+import boldpath43 from "../assets/logo-design/brand-guidelines/letter-bp/1/43.jpg"
+import boldpath44 from "../assets/logo-design/brand-guidelines/letter-bp/1/44.jpg"
+import boldpath45 from "../assets/logo-design/brand-guidelines/letter-bp/1/45.jpg"
+import boldpath46 from "../assets/logo-design/brand-guidelines/letter-bp/1/46.jpg"
+import boldpath47 from "../assets/logo-design/brand-guidelines/letter-bp/1/47.jpg"
+
 
 
 
@@ -1057,6 +1105,73 @@ const projects: Project[] = [
       bloodDonation2,
       bloodDonation3,
       bloodDonation4,
+    ],
+  },
+
+  {
+    id: "boldpath-brand-guidelines-1",
+    title: "BoldPath Brand Guidelines – Defining Our Identity",
+    category: "Brand Guidelines Design",
+    client: "For prortfolio",
+    date: "June 2024",
+    useorunuse: "Unuse logo",
+    description:
+      "High-end photo retouching for a luxury cosmetics brand's product line.",
+    challenge:
+      "Luxury Cosmetics needed professional product photography editing for their new skincare line. The images needed to highlight product details and textures while maintaining a consistent, premium aesthetic across the entire collection.",
+    solution:
+      "I performed advanced photo retouching techniques to enhance product details without making the images look artificially manipulated. This included color correction, removing imperfections, adjusting lighting, and creating realistic reflections. Special attention was paid to texture details and maintaining color accuracy.",
+    outcome:
+      "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
+    tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
+    images: [
+      boldpath,
+      boldpath2,
+      boldpath3,
+      boldpath4,
+      boldpath5,
+      boldpath6,
+      boldpath7,
+      boldpath8,
+      boldpath9,
+      boldpath10,
+      boldpath11,
+      boldpath12,
+      boldpath13,
+      boldpath14,
+      boldpath15,
+      boldpath16,
+      boldpath17,
+      boldpath18,
+      boldpath19,
+      boldpath20,
+      boldpath21,
+      boldpath22,
+      boldpath23,
+      boldpath24,
+      boldpath25,
+      boldpath26,
+      boldpath27,
+      boldpath28,
+      boldpath29,
+      boldpath30,
+      boldpath31,
+      boldpath32,
+      boldpath33,
+      boldpath34,
+      boldpath35,
+      boldpath36,
+      boldpath37,
+      boldpath38,
+      boldpath39,
+      boldpath40,
+      boldpath41,
+      boldpath42,
+      boldpath43,
+      boldpath44,
+      boldpath45,
+      boldpath46,
+      boldpath47,
     ],
   },
 
