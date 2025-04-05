@@ -335,16 +335,19 @@ const About = () => {
 
         {/* CTA Section */}
         <motion.section
-          className="text-center glass-card rounded-2xl p-10 md:p-16 relative overflow-hidden"
+          className="text-center glass-card rounded-2xl p-10 md:p-16 relative overflow-hidden bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/path-to-your-image.jpg')", // Replace with your image path
+          }}
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-text-[rgb(56,132,255)]/10 via-purple-500/10 to-blue-500/10 z-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/50  z-0"></div>
 
-          <div className="relative z-10 max-w-3xl mx-auto">
-            <span className="text-text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
+          <div className="relative z-10 max-w-3xl mx-auto text-white">
+            <span className="text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
               Let's Collaborate
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -356,7 +359,10 @@ const About = () => {
               amazing together!
             </p>
 
-            <Link to="/contact" className="primary-button text-lg px-8 py-4">
+            <Link
+              to="/contact"
+              className="primary-button text-lg px-8 py-4 bg-[rgb(56,132,255)] hover:bg-[rgb(41,119,244)] text-white rounded-lg shadow-lg transition-all"
+            >
               Start a Project
             </Link>
           </div>

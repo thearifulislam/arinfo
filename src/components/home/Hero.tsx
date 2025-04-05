@@ -19,14 +19,14 @@ const Hero = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             {/* Experience badge */}
-            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-full bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-sm animate-fade-in">
+            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-sm animate-fade-in">
               <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
               <span>3+ Years of Experience</span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
-              I'm Ariful, A <br />
-              <span className="text-[rgb(56,132,255)]">Graphic&nbsp;Designer.</span>
+            <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
+              I'm Ariful<br />
+              <span className="text-[rgb(56,132,255)]">A Graphic&nbsp;Designer.</span>
             </h1>
 
             <p className="text-white/80 text-lg md:text-xl max-w-xl mb-8 animate-fade-in animate-delay-200">
@@ -51,7 +51,7 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 mt-12 animate-fade-in animate-delay-400">
               {/* Stat 1 */}
-              <div className="glass-card p-6 rounded-lg text-center">
+              <div className="glass-card p-6 rounded-lg text-center transition-transform duration-300 hover:-translate-y-2">
                 <h3 className="text-4xl font-bold text-[rgb(56,132,255)] mb-2">
                   90%
                 </h3>
@@ -59,7 +59,7 @@ const Hero = () => {
               </div>
 
               {/* Stat 2 */}
-              <div className="glass-card p-6 rounded-lg text-center">
+              <div className="glass-card p-6 rounded-lg text-center transition-transform duration-300 hover:-translate-y-2">
                 <h3 className="text-4xl font-bold text-[rgb(56,132,255)] mb-2">
                   90%
                 </h3>
@@ -67,7 +67,7 @@ const Hero = () => {
               </div>
 
               {/* Stat 3 */}
-              <div className="glass-card p-6 rounded-lg text-center col-span-2 sm:col-span-1">
+              <div className="glass-card p-6 rounded-lg text-center col-span-2 sm:col-span-1 transition-transform duration-300 hover:-translate-y-2">
                 <h3 className="text-4xl font-bold text-[rgb(56,132,255)] mb-2">
                   97+
                 </h3>
