@@ -157,7 +157,7 @@ const About = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <div className="text-center mb-16">
-          <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-xl animate-fade-in">
+            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-sm animate-fade-in">
               <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
               <span>MY SKILLS</span>
             </div>
@@ -225,8 +225,8 @@ const About = () => {
           </div>
         </motion.section>
 
-         {/* Education & Experience */}
-         <motion.section 
+        {/* Education & Experience */}
+        <motion.section
           className="mb-32"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -234,13 +234,16 @@ const About = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <div className="text-center mb-16">
-            <span className="text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">My Journey</span>
+          <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-sm animate-fade-in">
+              <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
+              <span>MY JOURNEY</span>
+            </div>
             <h2 className="text-4xl font-bold mb-6">Education & Experience</h2>
             <p className="text-white/70 text-lg max-w-3xl mx-auto">
               My professional journey has equipped me with diverse experiences and skills that I bring to every project.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {/* Left Column - Experience */}
             <div>
@@ -250,7 +253,7 @@ const About = () => {
                 </span>
                 Work Experience
               </h3>
-              
+
               <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-[rgb(56,132,255)]/30">
                 {[
                   {
@@ -259,10 +262,10 @@ const About = () => {
                     company: "Learning & Earning Development Project - LEDP",
                     description: "Worked on various design projects including branding, marketing materials, and digital content. Collaborated with cross-functional teams to deliver high-quality designs."
                   },
-                 
+
                 ].map((item, index) => (
-                  <motion.div 
-                    key={index} 
+                  <motion.div
+                    key={index}
                     className="relative pl-8"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -278,7 +281,7 @@ const About = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Right Column - Education */}
             <div>
               <h3 className="text-2xl font-bold mb-8 flex items-center">
@@ -287,7 +290,7 @@ const About = () => {
                 </span>
                 Education
               </h3>
-              
+
               <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-[rgb(56,132,255)]/30">
                 {[
                   {
@@ -296,7 +299,7 @@ const About = () => {
                     institution: "Northarn University Of Business And Technology",
                     description: "Specialized in web and mobile application design. Completed projects in user experience and interface design."
                   },
-                   
+
                   {
                     period: "2019 - 2023",
                     title: "Diploma In Computer Engineering",
@@ -310,8 +313,8 @@ const About = () => {
                     description: "Completed secondary education with a focus on science and mathematics."
                   }
                 ].map((item, index) => (
-                  <motion.div 
-                    key={index} 
+                  <motion.div
+                    key={index}
                     className="relative pl-8"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}

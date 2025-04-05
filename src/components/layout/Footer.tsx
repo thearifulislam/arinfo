@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <footer className="bg-dark-card border-t border-white/5 pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="flex flex-wrap justify-between items-start gap-8 mb-12">
           {/* Brand Column */}
-          <div className="col-span-1 md:col-span-2 lg:col-span-1">
+          <div className="flex-1 min-w-[200px]">
             <h3 className="text-2xl font-bold mb-4">
               Ari<span className="text-[rgb(56,132,255)]">ful</span>
             </h3>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="flex-1 min-w-[150px]">
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
@@ -95,7 +95,6 @@ const Footer = () => {
                   Portfolio
                 </Link>
               </li>
-
               <li>
                 <Link
                   to="/blog"
@@ -104,7 +103,6 @@ const Footer = () => {
                   Blog
                 </Link>
               </li>
-
               <li>
                 <Link
                   to="/contact"
@@ -117,7 +115,7 @@ const Footer = () => {
           </div>
 
           {/* Services Links */}
-          <div>
+          <div className="flex-1 min-w-[150px]">
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li>
@@ -155,8 +153,65 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Social Links */}
+          <div className="flex-1 min-w-[150px]">
+            <h4 className="text-lg font-semibold mb-4">Social Links</h4>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="https://facebook.com/arifulislamofficialprofile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://behance.net/arifulcreatorstudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  Behance
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://dribbble.com/arifulcreatorstudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  Dribbble
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com/arifulcreatorstudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/arifulcreatorstudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-[rgb(56,132,255)] transition-colors"
+                >
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact Info */}
-          <div>
+          <div className="flex-1 min-w-[200px]">
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3">
               <li className="text-white/70">
@@ -169,9 +224,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-white/70">
-                <span className="block text-sm text-white/50 mb-1">
-                  Location
-                </span>
+                <span className="block text-sm text-white/50 mb-1">Location</span>
                 <span>Dhaka, Bangladesh</span>
               </li>
               <li>
@@ -185,24 +238,24 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center">
-  <p className="text-white/50 text-sm mb-4 md:mb-0">
-    © {currentYear} Ariful. All Rights Reserved.
-  </p>
-  <div className="flex space-x-6">
-    <Link
-      to="/privacy-policy"
-      className="text-white/50 text-sm hover:text-white transition-colors"
-    >
-      Privacy Policy
-    </Link>
-    <Link
-      to="/terms-of-service"
-      className="text-white/50 text-sm hover:text-white transition-colors"
-    >
-      Terms of Service
-    </Link>
-  </div>
-</div>
+          <p className="text-white/50 text-sm mb-4 md:mb-0">
+            © {currentYear} Ariful. All Rights Reserved.
+          </p>
+          <div className="flex space-x-6">
+            <Link
+              to="/privacy-policy"
+              className="text-white/50 text-sm hover:text-white transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              to="/terms-of-service"
+              className="text-white/50 text-sm hover:text-white transition-colors"
+            >
+              Terms of Service
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
