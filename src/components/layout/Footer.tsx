@@ -185,24 +185,24 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-white/50 text-sm mb-4 md:mb-0">
-            © {currentYear} Ariful. All Rights Reserved.
-          </p>
-          <div className="flex space-x-6">
-            <a
-              href="#"
-              className="text-white/50 text-sm hover:text-white transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="text-white/50 text-sm hover:text-white transition-colors"
-            >
-              Terms of Service
-            </a>
-          </div>
-        </div>
+  <p className="text-white/50 text-sm mb-4 md:mb-0">
+    © {currentYear} Ariful. All Rights Reserved.
+  </p>
+  <div className="flex space-x-6">
+    <Link
+      to="/privacy-policy"
+      className="text-white/50 text-sm hover:text-white transition-colors"
+    >
+      Privacy Policy
+    </Link>
+    <Link
+      to="/terms-of-service"
+      className="text-white/50 text-sm hover:text-white transition-colors"
+    >
+      Terms of Service
+    </Link>
+  </div>
+</div>
       </div>
     </footer>
   );

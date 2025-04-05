@@ -65,11 +65,32 @@ const About = () => {
             },
           }}
         >
-          {/* Content */}
-          <motion.div variants={fadeIn}>
-            <span className="text-text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
-              About Me
-            </span>
+          {/* Image */}
+          <motion.div
+            className="relative order-1 lg:order-2"
+            variants={fadeIn}
+          >
+            <div className="glass-card rounded-2xl p-4 border border-white/10 shadow-xl overflow-hidden">
+              <img
+                src={me}
+                alt="Ariful Islam - Graphic Designer"
+                className="w-full rounded-xl object-cover"
+              />
+            </div>
+
+            {/* Glow effect */}
+            <div className="absolute -inset-4 bg-gradient-to-tr from-text-[rgb(56,132,255)]/30 via-transparent to-purple-500/30 rounded-2xl blur-3xl opacity-50 -z-10"></div>
+          </motion.div>
+
+          {/* About Me Content */}
+          <motion.div
+            className="order-2 lg:order-1"
+            variants={fadeIn}
+          >
+            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-sm animate-fade-in">
+              <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
+              <span>ABOUT ME</span>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               I'm Ariful Islam,<br />A Creative Designer.
             </h1>
@@ -125,27 +146,6 @@ const About = () => {
               Get In Touch <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </motion.div>
-
-          {/* Image */}
-          <motion.div className="relative" variants={fadeIn}>
-            <div className="glass-card rounded-2xl p-4 border border-white/10 shadow-xl overflow-hidden">
-              <img
-                src={me}
-                alt="Ariful Islam - Graphic Designer"
-                className="w-full rounded-xl object-cover"
-              />
-
-              <div className="absolute top-8 right-8 backdrop-blur-xl bg-dark/80 border border-text-[rgb(56,132,255)]/20 px-6 py-4 rounded-lg">
-                <span className="block text-text-[rgb(56,132,255)] font-bold text-2xl">
-                  3+
-                </span>
-                <span className="text-sm text-white/70">Years Experience</span>
-              </div>
-            </div>
-
-            {/* Glow effect */}
-            <div className="absolute -inset-4 bg-gradient-to-tr from-text-[rgb(56,132,255)]/30 via-transparent to-purple-500/30 rounded-2xl blur-3xl opacity-50 -z-10"></div>
-          </motion.div>
         </motion.section>
 
         {/* Skills Section */}
@@ -157,9 +157,10 @@ const About = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <div className="text-center mb-16">
-            <span className="text-text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
-              My Skills
-            </span>
+          <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-xl animate-fade-in">
+              <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
+              <span>MY SKILLS</span>
+            </div>
             <h2 className="text-4xl font-bold mb-6">
               Design Expertise & Technical Skills
             </h2>
@@ -236,9 +237,15 @@ const About = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-[rgb(56,132,255)]/20 via-purple-500/10 to-blue-500/20 backdrop-blur-lg -z-10"></div>
 
           <div className="text-center mb-16 relative z-10">
-            <span className="text-text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">
-              My Journey
-            </span>
+
+
+
+            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-xl animate-fade-in">
+              <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
+              <span>MY JOURNEY</span>
+            </div>
+
+
             <h2 className="text-4xl font-bold mb-6">Education & Experience</h2>
             <p className="text-white/70 text-lg max-w-3xl mx-auto">
               My professional journey has equipped me with diverse experiences
