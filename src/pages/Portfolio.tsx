@@ -19,6 +19,7 @@ import nexus from "../assets/logo-design/combination-mark/tech-logo/1/1.jpg"
 import momentum from "../assets/logo-design/abstrack-mark/men-fashion/1/1.jpg"
 import bloodDonation from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg"
 import boldpath from "../assets/logo-design/brand-guidelines/letter-bp/1/1.jpg"
+import ranova from "../assets/logo-design/brand-guidelines/letter-rn/1/pro.jpg"
 
 
 
@@ -338,7 +339,15 @@ const Portfolio = () => {
       image: boldpath,
       slug: "boldpath-brand-guidelines-1",
     },
-
+    {
+      id: 27,
+      titles: ["Ranova - Style Without Limits"],
+      categories: ["brand-guidelines", "logo-design", "branding"],
+      subCategories: ["lettermark",],
+      tags: ["Logo Design", "Brand Guidelines", "Lettermark"],
+      image: ranova,
+      slug: "ranova-brand-guidelines",
+    },
 
   ];
 

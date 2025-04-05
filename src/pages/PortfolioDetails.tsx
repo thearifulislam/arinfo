@@ -270,6 +270,31 @@ import boldpath45 from "../assets/logo-design/brand-guidelines/letter-bp/1/45.jp
 import boldpath46 from "../assets/logo-design/brand-guidelines/letter-bp/1/46.jpg"
 import boldpath47 from "../assets/logo-design/brand-guidelines/letter-bp/1/47.jpg"
 
+import ranova from "../assets/logo-design/brand-guidelines/letter-rn/1/pro.jpg"
+import ranova2 from "../assets/logo-design/brand-guidelines/letter-rn/1/1.jpg"
+import ranova3 from "../assets/logo-design/brand-guidelines/letter-rn/1/2.jpg"
+import ranova4 from "../assets/logo-design/brand-guidelines/letter-rn/1/3.jpg"
+import ranova5 from "../assets/logo-design/brand-guidelines/letter-rn/1/4.jpg"
+import ranova6 from "../assets/logo-design/brand-guidelines/letter-rn/1/5.jpg"
+import ranova7 from "../assets/logo-design/brand-guidelines/letter-rn/1/6.jpg"
+import ranova8 from "../assets/logo-design/brand-guidelines/letter-rn/1/7.jpg"
+import ranova9 from "../assets/logo-design/brand-guidelines/letter-rn/1/8.jpg"
+import ranova10 from "../assets/logo-design/brand-guidelines/letter-rn/1/9.jpg"
+import ranova11 from "../assets/logo-design/brand-guidelines/letter-rn/1/10.jpg"
+import ranova12 from "../assets/logo-design/brand-guidelines/letter-rn/1/11.jpg"
+import ranova13 from "../assets/logo-design/brand-guidelines/letter-rn/1/12.jpg"
+import ranova14 from "../assets/logo-design/brand-guidelines/letter-rn/1/13.jpg"
+import ranova15 from "../assets/logo-design/brand-guidelines/letter-rn/1/14.jpg"
+import ranova16 from "../assets/logo-design/brand-guidelines/letter-rn/1/15.jpg"
+import ranova17 from "../assets/logo-design/brand-guidelines/letter-rn/1/16.jpg"
+import ranova18 from "../assets/logo-design/brand-guidelines/letter-rn/1/17.jpg"
+import ranova19 from "../assets/logo-design/brand-guidelines/letter-rn/1/18.jpg"
+import ranova20 from "../assets/logo-design/brand-guidelines/letter-rn/1/19.jpg"
+import ranova21 from "../assets/logo-design/brand-guidelines/letter-rn/1/20.jpg"
+import ranova22 from "../assets/logo-design/brand-guidelines/letter-rn/1/21.jpg"
+import ranova23 from "../assets/logo-design/brand-guidelines/letter-rn/1/22.jpg"
+
+
 
 
 
@@ -1175,6 +1200,50 @@ const projects: Project[] = [
     ],
   },
 
+
+
+  {
+    id: "ranova-brand-guidelines",
+    title: "Ranova - Style Without Limits",
+    category: "Brand Guidelines Design",
+    client: "For prortfolio",
+    date: "June 2024",
+    useorunuse: "Unuse logo",
+    description:
+      "High-end photo retouching for a luxury cosmetics brand's product line.",
+    challenge:
+      "Luxury Cosmetics needed professional product photography editing for their new skincare line. The images needed to highlight product details and textures while maintaining a consistent, premium aesthetic across the entire collection.",
+    solution:
+      "I performed advanced photo retouching techniques to enhance product details without making the images look artificially manipulated. This included color correction, removing imperfections, adjusting lighting, and creating realistic reflections. Special attention was paid to texture details and maintaining color accuracy.",
+    outcome:
+      "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
+    tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
+    images: [
+     ranova,
+      ranova2,
+      ranova3,
+      ranova4,
+      ranova5,
+      ranova6,
+      ranova7,
+      ranova8,
+      ranova9,
+      ranova10,
+      ranova11,
+      ranova12,
+      ranova13,
+      ranova14,
+      ranova15,
+      ranova16,
+      ranova17,
+      ranova18,
+      ranova19,
+      ranova20,
+      ranova21,
+      ranova22,
+      ranova23,
+    ],
+  },
 
 ];
 
