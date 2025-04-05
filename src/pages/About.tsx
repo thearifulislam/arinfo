@@ -225,73 +225,52 @@ const About = () => {
           </div>
         </motion.section>
 
-        {/* Education & Experience */}
-        <motion.section
-          className="mb-32 relative overflow-hidden rounded-lg"
+         {/* Education & Experience */}
+         <motion.section 
+          className="mb-32"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          {/* Gradient Background with Blur */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[rgb(56,132,255)]/20 via-purple-500/10 to-blue-500/20 backdrop-blur-lg -z-10"></div>
-
-          <div className="text-center mb-16 relative z-10">
-
-
-
-            <div className="inline-flex items-center mb-6 px-3 py-1 rounded-[5px] bg-[rgb(56,132,255)]/10 border border-[rgb(56,132,255)]/20 text-white text-xl animate-fade-in">
-              <span className="flex h-2 w-2 rounded-full bg-[rgb(56,132,255)] mr-2"></span>
-              <span>MY JOURNEY</span>
-            </div>
-
-
+          <div className="text-center mb-16">
+            <span className="text-[rgb(56,132,255)] text-sm font-medium uppercase tracking-wider mb-2 inline-block">My Journey</span>
             <h2 className="text-4xl font-bold mb-6">Education & Experience</h2>
             <p className="text-white/70 text-lg max-w-3xl mx-auto">
-              My professional journey has equipped me with diverse experiences
-              and skills that I bring to every project.
+              My professional journey has equipped me with diverse experiences and skills that I bring to every project.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 relative z-10">
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {/* Left Column - Experience */}
-            <div className="bg-dark-card p-8 rounded-lg shadow-lg">
+            <div>
               <h3 className="text-2xl font-bold mb-8 flex items-center">
-                <span className="text-text-[rgb(56,132,255)] mr-3">
+                <span className="text-[rgb(56,132,255)] mr-3">
                   <Briefcase className="w-6 h-6" />
                 </span>
                 Work Experience
               </h3>
-
-              <div className="space-y-8">
+              
+              <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-[rgb(56,132,255)]/30">
                 {[
                   {
-                    period: "2018 - Present",
+                    period: "2020 - 2021",
                     title: "Graphic Designer",
-                    company: "Learning And Earning Development Project",
-                    description:
-                      "Leading brand identity projects for Fortune 500 companies and startups. Overseeing a team of designers and ensuring consistent quality across deliverables.",
+                    company: "Learning & Earning Development Project - LEDP",
+                    description: "Worked on various design projects including branding, marketing materials, and digital content. Collaborated with cross-functional teams to deliver high-quality designs."
                   },
-                  {
-                    period: "2016 - 2018",
-                    title: "Junior Designer",
-                    company: "Creative Agency",
-                    description:
-                      "Assisted in creating visual designs for marketing campaigns and branding projects.",
-                  },
+                 
                 ].map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className="relative p-6 rounded-lg bg-dark"
+                  <motion.div 
+                    key={index} 
+                    className="relative pl-8"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-text-[rgb(56,132,255)] z-10"></div>
-                    <span className="text-text-[rgb(56,132,255)] text-sm">
-                      {item.period}
-                    </span>
+                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-[rgb(56,132,255)] z-10"></div>
+                    <span className="text-[rgb(56,132,255)] text-sm">{item.period}</span>
                     <h4 className="text-xl font-bold mt-1">{item.title}</h4>
                     <p className="text-white/60 text-sm mb-2">{item.company}</p>
                     <p className="text-white/80 text-sm">{item.description}</p>
@@ -299,48 +278,51 @@ const About = () => {
                 ))}
               </div>
             </div>
-
+            
             {/* Right Column - Education */}
-            <div className="bg-dark-card p-8 rounded-lg shadow-lg">
+            <div>
               <h3 className="text-2xl font-bold mb-8 flex items-center">
-                <span className="text-text-[rgb(56,132,255)] mr-3">
+                <span className="text-[rgb(56,132,255)] mr-3">
                   <GraduationCap className="w-6 h-6" />
                 </span>
                 Education
               </h3>
-
-              <div className="space-y-8">
+              
+              <div className="space-y-8 relative before:content-[''] before:absolute before:left-[7px] before:top-2 before:bottom-10 before:w-[2px] before:bg-[rgb(56,132,255)]/30">
                 {[
                   {
-                    period: "2024 - Continue",
-                    title: "BSC in CSE",
-                    institution: "Northern University of Business & Technology",
+                    period: "2024 - Running",
+                    title: "BSC In CSE",
+                    institution: "Northarn University Of Business And Technology",
+                    description: "Specialized in web and mobile application design. Completed projects in user experience and interface design."
                   },
+                   
                   {
                     period: "2019 - 2023",
-                    title: "Diploma in Computer Engineering",
-                    institution: "BCMC College of Engineering & Technology",
+                    title: "Diploma In Computer Engineering",
+                    institution: "BCMC College of Engineering & Technology, Jashore",
+                    description: "Focused on software development and design principles. Completed projects in web development and graphic design."
                   },
                   {
-                    period: "2019",
-                    title: "Secondary School Certificate",
-                    institution: "Kazir Pagla A.T Institution",
-                  },
+                    period: "2002 - 2004",
+                    title: "Secondary School Certificate (SSC)",
+                    institution: "Kazir Pagla A.T. Institution, Kazir Pagla, Munshigang, Dhaka",
+                    description: "Completed secondary education with a focus on science and mathematics."
+                  }
                 ].map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className="relative p-6 rounded-lg bg-dark"
+                  <motion.div 
+                    key={index} 
+                    className="relative pl-8"
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-text-[rgb(56,132,255)] z-10"></div>
-                    <span className="text-text-[rgb(56,132,255)] text-sm">
-                      {item.period}
-                    </span>
+                    <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-[rgb(56,132,255)] z-10"></div>
+                    <span className="text-[rgb(56,132,255)] text-sm">{item.period}</span>
                     <h4 className="text-xl font-bold mt-1">{item.title}</h4>
                     <p className="text-white/60 text-sm mb-2">{item.institution}</p>
+                    <p className="text-white/80 text-sm">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
