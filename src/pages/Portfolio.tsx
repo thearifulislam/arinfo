@@ -100,6 +100,7 @@ const Portfolio = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false); // State for dropdown visibility
   const searchBarRef = useRef<HTMLDivElement>(null); // Ref for the search bar
   const navigate = useNavigate();
+  const [visibleProjects, setVisibleProjects] = useState(15); // State to control visible projects
 
   const projects: Project[] = [
     {
@@ -491,6 +492,10 @@ const Portfolio = () => {
     setIsDropdownVisible(true); // Show dropdown when search bar is focused
   };
 
+  const handleLoadMore = () => {
+    setVisibleProjects((prev) => prev + 15); // Load 15 more projects
+  };
+
   return (
     <div className="bg-dark min-h-screen">
       <Navbar />
@@ -612,7 +617,7 @@ const Portfolio = () => {
             initial="hidden"
             animate="show"
           >
-            {filteredProjects.map((project) => (
+            {filteredProjects.slice(0, visibleProjects).map((project) => (
               <motion.div
                 key={project.id}
                 className="portfolio-card group"
@@ -656,6 +661,18 @@ const Portfolio = () => {
               </motion.div>
             ))}
           </motion.div>
+        )}
+
+        {/* Load More Button */}
+        {visibleProjects < filteredProjects.length && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={handleLoadMore}
+              className="px-6 py-3 bg-[rgb(56,132,255)] text-white rounded-lg shadow-lg hover:bg-[rgb(41,119,244)] transition-all"
+            >
+              Click Here to See More Portfolios
+            </button>
+          </div>
         )}
       </div>
 
