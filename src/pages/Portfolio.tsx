@@ -7,18 +7,30 @@ import GoToTop from "../components/home/GoToTop";
 import { ArrowRight } from "lucide-react";
 
 // Importing images (replace with your actual paths)
-import playerlogo01 from "../assets/logo-design/abstrack-mark/player-logo-1/1.jpg";
 import wind from "../assets/logo-design/lettermark-logo/letter-w/1/1.jpg";
 import ZXON from "../assets/logo-design/lettermark-logo/letter-z/1/1.jpg";
-import arborSphere from "../assets/logo-design/combination-mark/nature-logo/1/1.jpg";
+import playerlogo01 from "../assets/logo-design/abstrack-mark/player-logo-1/1.jpg";
+import arborSphere1 from "../assets/logo-design/combination-mark/nature-logo/1/1.jpg";
+
+
+
+// for business card
 import minimalist1 from "../assets/business-card/minimalist/1/1.jpg";
 import minimalist2 from "../assets/business-card/minimalist/2/1.jpg";
+
+
+
+// for letterhead
+
+import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg"
+import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg"
+import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg"
+import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg"
 
 interface Project {
   id: number;
   titles: string[];
   categories: string[];
-  subCategories: string[];
   tags: string[];
   image: string;
   slug: string;
@@ -27,45 +39,40 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    titles: ["Player Logo Design"],
-    categories: ["abstract-mark", "logo-design"],
-    subCategories: ["logo-design", "identity", "abstract-mark"],
-    tags: ["Logo Design", "Abstract Mark"],
-    image: playerlogo01,
-    slug: "player-logo-design-1",
-  },
-  {
-    id: 2,
     titles: ["Wind – A Symbol of Motion and Freedom"],
-    categories: ["logo-design", "branding"],
-    subCategories: ["lettermark", "identity"],
+    categories: ["logo design"],
     tags: ["Branding", "Logo Design", "Lettermark"],
     image: wind,
     slug: "lettermark-W-Logo-1",
   },
   {
-    id: 3,
+    id: 2,
     titles: ["ZXON – The Future of Innovation & Technology"],
-    categories: ["logo-design", "branding"],
-    subCategories: ["lettermark"],
+    categories: ["logo design"],
     tags: ["Logo Design", "Lettermark", "Branding"],
     image: ZXON,
     slug: "lettermark-Z-Logo-1",
   },
   {
+    id: 3,
+    titles: ["Player Logo Design"],
+    categories: ["logo design"],
+    tags: ["Logo Design", "Abstract Mark"],
+    image: playerlogo01,
+    slug: "player-logo-design",
+  },
+  {
     id: 4,
     titles: ["ArborSphere: Cultivating Growth & Sustainability"],
-    categories: ["logo-design", "branding"],
-    subCategories: ["branding", "combination-mark"],
-    tags: ["Logo Design", "Combination Mark", "Branding"],
-    image: arborSphere,
-    slug: "combination-mark-naturelogo-1",
+    categories: ["logo design"],
+    tags: ["Logo Design", "Combination Mark"],
+    image: arborSphere1,
+    slug: "arborsphere-logo-design",
   },
   {
     id: 5,
-    titles: ["Minimalist Business Card Design: Embrace the Logo’s Essence"],
-    categories: ["business-card"],
-    subCategories: ["minimalist"],
+    titles: ["Minimalist Business Card Design"],
+    categories: ["business card"],
     tags: ["Business Card", "Minimalist"],
     image: minimalist1,
     slug: "minimalist-business-card-1",
@@ -73,11 +80,46 @@ const projects: Project[] = [
   {
     id: 6,
     titles: ["Minimalist Design, Maximum Impact"],
-    categories: ["business-card"],
-    subCategories: ["minimalist"],
+    categories: ["business card"],
     tags: ["Business Card", "Minimalist"],
     image: minimalist2,
     slug: "minimalist-business-card-2",
+  },
+  
+  {
+    id: 7,
+    titles: ["Minimalist Design, Maximum Impact"],
+    categories: ["Letterhead Design"],
+    tags: ["Letterhead", "Minimalist"],
+    image: modern1,
+    slug: "modern-letterhead-1",
+  },
+  
+  {
+    id: 8,
+    titles: ["Minimalist Design, Maximum Impact"],
+    categories: ["Letterhead Design"],
+    tags: ["Letterhead", "Minimalist"],
+    image: minimalistandcorporate1,
+    slug: "minimalist-corporate-letterhead-1",
+  },
+
+  {
+    id: 9,
+    titles: ["Minimalist Design, Maximum Impact"],
+    categories: ["Letterhead Design"],
+    tags: ["Letterhead", "Minimalist"],
+    image: modernandboldcorporate1,
+    slug: "minimalist-bold-corporate-letterhead-1",
+  },
+
+  {
+    id: 10,
+    titles: ["Minimalist Design, Maximum Impact"],
+    categories: ["Letterhead Design"],
+    tags: ["Letterhead", "Minimalist"],
+    image: modernandboldcorporate2,
+    slug: "minimalist-bold-corporate-letterhead-2",
   },
 ];
 
@@ -155,20 +197,23 @@ const Portfolio = () => {
                   key={category}
                   className="bg-dark-card p-6 rounded-lg shadow-lg"
                 >
-                  {/* Category Title */}
+                  {/* Highlighted Category Title */}
                   <div className="flex justify-between items-center mb-6">
-                    <h2 className="text-xl font-bold text-white">
+                    <h2 className="text-xl font-bold text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md">
                       {category.charAt(0).toUpperCase() + category.slice(1)}
                     </h2>
                     <button
-                      onClick={() => navigate(`/portfolio/category/${category}`)}
-                      className="text-sm font-medium text-[rgb(56,132,255)] flex items-center gap-1"
+                      onClick={() =>
+                        navigate(`/portfolio/category/${category}`)
+                      }
+                      className="text-sm font-medium text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md hover:bg-[rgb(34,102,204)] transition-colors duration-300"
                     >
-                      See More <ArrowRight className="w-4 h-4" />
+                      See More{" "}
+                      <ArrowRight className="w-4 h-4 inline-block ml-1" />
                     </button>
                   </div>
 
-                  {/* Display 6 Items */}
+                  {/* Display Projects */}
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.slice(0, 6).map((project) => (
                       <div key={project.id} className="portfolio-card group">
