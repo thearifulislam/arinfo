@@ -6,38 +6,40 @@ import Footer from "../components/layout/Footer";
 import GoToTop from "../components/home/GoToTop";
 import { ArrowRight } from "lucide-react";
 
-// Importing images (replace with your actual paths)
-import wind from "../assets/logo-design/lettermark-logo/letter-w/1/1.jpg";
-import ZXON from "../assets/logo-design/lettermark-logo/letter-z/1/1.jpg";
+// for logo
 import playerlogo01 from "../assets/logo-design/abstrack-mark/player-logo-1/1.jpg";
+import lettermarkw1 from "../assets/logo-design/lettermark-logo/letter-w/1/1.jpg";
+import lettermarkz1 from "../assets/logo-design/lettermark-logo/letter-z/1/1.jpg";
 import arborSphere1 from "../assets/logo-design/combination-mark/nature-logo/1/1.jpg";
 
 // for business card
+
 import minimalist1 from "../assets/business-card/minimalist/1/1.jpg";
 import minimalist2 from "../assets/business-card/minimalist/2/1.jpg";
 
 // for letterhead
+
 import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg";
 import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg";
 import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg";
 import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg";
 
-interface Project {
-  id: number;
-  titles: string[];
-  categories: string[];
-  tags: string[];
-  image: string;
-  slug: string;
-}
+// for facebook cover
 
-const projects: Project[] = [
+import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg";
+
+// for banner
+
+import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg";
+
+// Example projects array (replace with your actual data or import it)
+const projects = [
   {
     id: 1,
     titles: ["Wind – A Symbol of Motion and Freedom"],
     categories: ["logo design"],
     tags: ["Branding", "Logo Design", "Lettermark"],
-    image: wind,
+    image: playerlogo01,
     slug: "lettermark-W-Logo-1",
   },
   {
@@ -45,7 +47,7 @@ const projects: Project[] = [
     titles: ["ZXON – The Future of Innovation & Technology"],
     categories: ["logo design"],
     tags: ["Logo Design", "Lettermark", "Branding"],
-    image: ZXON,
+    image: lettermarkw1,
     slug: "lettermark-Z-Logo-1",
   },
   {
@@ -53,64 +55,80 @@ const projects: Project[] = [
     titles: ["Player Logo Design"],
     categories: ["logo design"],
     tags: ["Logo Design", "Abstract Mark"],
-    image: playerlogo01,
+    image: lettermarkz1,
     slug: "player-logo-design",
   },
   {
     id: 4,
-    titles: ["ArborSphere: Cultivating Growth & Sustainability"],
-    categories: ["logo design"],
-    tags: ["Logo Design", "Combination Mark"],
-    image: arborSphere1,
-    slug: "arborsphere-logo-design",
-  },
-  {
-    id: 5,
     titles: ["Minimalist Business Card Design"],
-    categories: ["business card"],
+    categories: ["logo design"],
     tags: ["Business Card", "Minimalist"],
-    image: minimalist1,
+    image: arborSphere1,
     slug: "minimalist-business-card-1",
   },
   {
+    id: 5,
+    titles: ["Modern Letterhead Design"],
+    categories: ["Business Card"],
+    tags: ["Letterhead", "Modern"],
+    image: minimalist1,
+    slug: "modern-letterhead-1",
+  },
+  {
     id: 6,
-    titles: ["Minimalist Design, Maximum Impact"],
-    categories: ["business card"],
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Business Card"],
     tags: ["Business Card", "Minimalist"],
     image: minimalist2,
     slug: "minimalist-business-card-2",
   },
   {
     id: 7,
-    titles: ["Minimalist Design, Maximum Impact"],
+    titles: ["Minimalist Business Card Design"],
     categories: ["Letterhead Design"],
-    tags: ["Letterhead", "Minimalist"],
+    tags: ["Business Card", "Minimalist"],
     image: modern1,
-    slug: "modern-letterhead-1",
+    slug: "minimalist-business-card-2",
   },
   {
     id: 8,
-    titles: ["Minimalist Design, Maximum Impact"],
+    titles: ["Minimalist Business Card Design"],
     categories: ["Letterhead Design"],
-    tags: ["Letterhead", "Minimalist"],
+    tags: ["Business Card", "Minimalist"],
     image: minimalistandcorporate1,
-    slug: "minimalist-corporate-letterhead-1",
+    slug: "minimalist-business-card-2",
   },
   {
     id: 9,
-    titles: ["Minimalist Design, Maximum Impact"],
+    titles: ["Minimalist Business Card Design"],
     categories: ["Letterhead Design"],
-    tags: ["Letterhead", "Minimalist"],
+    tags: ["Business Card", "Minimalist"],
     image: modernandboldcorporate1,
-    slug: "minimalist-bold-corporate-letterhead-1",
+    slug: "minimalist-business-card-2",
   },
   {
     id: 10,
-    titles: ["Letterhead Design, Maximum Impact"],
+    titles: ["Minimalist Business Card Design"],
     categories: ["Letterhead Design"],
-    tags: ["letterhead", "Minimalist"],
+    tags: ["Business Card", "Minimalist"],
     image: modernandboldcorporate2,
-    slug: "minimalist-bold-corporate-letterhead-2",
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 11,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Social Media Cover"],
+    tags: ["Business Card", "Minimalist"],
+    image: facebookcover1,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 12,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Banner"],
+    tags: ["Business Card", "Minimalist"],
+    image: promotionalbanner1,
+    slug: "minimalist-business-card-2",
   },
 ];
 
@@ -138,7 +156,7 @@ const Portfolio = () => {
       acc[category].push(project);
     });
     return acc;
-  }, {} as Record<string, Project[]>);
+  }, {} as Record<string, typeof projects>);
 
   return (
     <div className="bg-dark min-h-screen">
@@ -200,15 +218,17 @@ const Portfolio = () => {
                     <h2 className="text-lg md:text-xl font-bold text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md whitespace-nowrap">
                       {category.charAt(0).toUpperCase() + category.slice(1)}
                     </h2>
-                    <button
-                      onClick={() =>
-                        navigate(`/portfolio/category/${category}`)
-                      }
-                      className="text-sm font-medium text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md hover:bg-[rgb(34,102,204)] transition-colors duration-300"
+                    <Link
+                      to={`/portfolio/category/${
+                        category === "logo design"
+                          ? "logo-design"
+                          : category.toLowerCase().replace(/\s+/g, "-")
+                      }`}
+                      className="text-base font-medium text-white bg-[rgb(56,132,255)] px-6 py-3 rounded-md shadow-md hover:bg-[rgb(34,102,204)] transition-colors duration-300 flex items-center"
                     >
                       See More{" "}
-                      <ArrowRight className="w-4 h-4 inline-block ml-1" />
-                    </button>
+                      <ArrowRight className="w-5 h-5 inline-block ml-2" />
+                    </Link>
                   </div>
 
                   {/* Display Projects */}

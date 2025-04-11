@@ -82,24 +82,24 @@ import mpPlayer11 from "../assets/logo-design/lettermark-logo/letter-mp/1/11.jpg
 import mpPlayer12 from "../assets/logo-design/lettermark-logo/letter-mp/1/12.jpg";
 import mpPlayer13 from "../assets/logo-design/lettermark-logo/letter-mp/1/13.jpg";
 
-import Uniflora from "../assets/logo-design/lettermark-logo/letter-u/1/1.jpg"
-import Uniflora2 from "../assets/logo-design/lettermark-logo/letter-u/1/2.jpg"
-import Uniflora3 from "../assets/logo-design/lettermark-logo/letter-u/1/3.jpg"
-import Uniflora4 from "../assets/logo-design/lettermark-logo/letter-u/1/4.jpg"
-import Uniflora5 from "../assets/logo-design/lettermark-logo/letter-u/1/5.jpg"
-import Uniflora6 from "../assets/logo-design/lettermark-logo/letter-u/1/6.jpg"
-import Uniflora7 from "../assets/logo-design/lettermark-logo/letter-u/1/7.jpg"
-import Uniflora8 from "../assets/logo-design/lettermark-logo/letter-u/1/8.jpg"
-import Uniflora9 from "../assets/logo-design/lettermark-logo/letter-u/1/9.jpg"
-import Uniflora10 from "../assets/logo-design/lettermark-logo/letter-u/1/10.jpg"
-import Uniflora11 from "../assets/logo-design/lettermark-logo/letter-u/1/11.jpg"
-import Uniflora12 from "../assets/logo-design/lettermark-logo/letter-u/1/12.jpg"
-import Uniflora13 from "../assets/logo-design/lettermark-logo/letter-u/1/13.jpg"
-import Uniflora14 from "../assets/logo-design/lettermark-logo/letter-u/1/14.jpg"
-import Uniflora15 from "../assets/logo-design/lettermark-logo/letter-u/1/15.jpg"
-import Uniflora16 from "../assets/logo-design/lettermark-logo/letter-u/1/16.jpg"
-import Uniflora17 from "../assets/logo-design/lettermark-logo/letter-u/1/17.jpg"
-import Uniflora18 from "../assets/logo-design/lettermark-logo/letter-u/1/18.jpg"
+import Uniflora from "../assets/logo-design/lettermark-logo/letter-u/1/1.jpg";
+import Uniflora2 from "../assets/logo-design/lettermark-logo/letter-u/1/2.jpg";
+import Uniflora3 from "../assets/logo-design/lettermark-logo/letter-u/1/3.jpg";
+import Uniflora4 from "../assets/logo-design/lettermark-logo/letter-u/1/4.jpg";
+import Uniflora5 from "../assets/logo-design/lettermark-logo/letter-u/1/5.jpg";
+import Uniflora6 from "../assets/logo-design/lettermark-logo/letter-u/1/6.jpg";
+import Uniflora7 from "../assets/logo-design/lettermark-logo/letter-u/1/7.jpg";
+import Uniflora8 from "../assets/logo-design/lettermark-logo/letter-u/1/8.jpg";
+import Uniflora9 from "../assets/logo-design/lettermark-logo/letter-u/1/9.jpg";
+import Uniflora10 from "../assets/logo-design/lettermark-logo/letter-u/1/10.jpg";
+import Uniflora11 from "../assets/logo-design/lettermark-logo/letter-u/1/11.jpg";
+import Uniflora12 from "../assets/logo-design/lettermark-logo/letter-u/1/12.jpg";
+import Uniflora13 from "../assets/logo-design/lettermark-logo/letter-u/1/13.jpg";
+import Uniflora14 from "../assets/logo-design/lettermark-logo/letter-u/1/14.jpg";
+import Uniflora15 from "../assets/logo-design/lettermark-logo/letter-u/1/15.jpg";
+import Uniflora16 from "../assets/logo-design/lettermark-logo/letter-u/1/16.jpg";
+import Uniflora17 from "../assets/logo-design/lettermark-logo/letter-u/1/17.jpg";
+import Uniflora18 from "../assets/logo-design/lettermark-logo/letter-u/1/18.jpg";
 
 import zepeq from "../assets/logo-design/lettermark-logo/letter-zpq/1/1.jpg";
 import zepeq2 from "../assets/logo-design/lettermark-logo/letter-zpq/1/2.jpg";
@@ -151,186 +151,173 @@ import ecogrow14 from "../assets/logo-design/combination-mark/nature-logo/2/14.j
 import ecogrow15 from "../assets/logo-design/combination-mark/nature-logo/2/15.jpg";
 import ecogrow16 from "../assets/logo-design/combination-mark/nature-logo/2/16.jpg";
 
+import winnest from "../assets/logo-design/wordmark/real-estate/1/1.jpg";
+import winnest2 from "../assets/logo-design/wordmark/real-estate/1/2.jpg";
+import winnest3 from "../assets/logo-design/wordmark/real-estate/1/3.jpg";
+import winnest4 from "../assets/logo-design/wordmark/real-estate/1/4.jpg";
+import winnest5 from "../assets/logo-design/wordmark/real-estate/1/5.jpg";
+import winnest6 from "../assets/logo-design/wordmark/real-estate/1/6.jpg";
+import winnest7 from "../assets/logo-design/wordmark/real-estate/1/7.jpg";
+import winnest8 from "../assets/logo-design/wordmark/real-estate/1/8.jpg";
+import winnest9 from "../assets/logo-design/wordmark/real-estate/1/9.jpg";
+import winnest10 from "../assets/logo-design/wordmark/real-estate/1/10.jpg";
+import winnest11 from "../assets/logo-design/wordmark/real-estate/1/11.jpg";
+import winnest12 from "../assets/logo-design/wordmark/real-estate/1/12.jpg";
+import winnest13 from "../assets/logo-design/wordmark/real-estate/1/13.jpg";
+import winnest14 from "../assets/logo-design/wordmark/real-estate/1/14.jpg";
+import winnest15 from "../assets/logo-design/wordmark/real-estate/1/15.jpg";
+import winnest16 from "../assets/logo-design/wordmark/real-estate/1/16.jpg";
+import winnest17 from "../assets/logo-design/wordmark/real-estate/1/17.jpg";
 
-import winnest from "../assets/logo-design/wordmark/real-estate/1/1.jpg"
-import winnest2 from "../assets/logo-design/wordmark/real-estate/1/2.jpg"
-import winnest3 from "../assets/logo-design/wordmark/real-estate/1/3.jpg"
-import winnest4 from "../assets/logo-design/wordmark/real-estate/1/4.jpg"
-import winnest5 from "../assets/logo-design/wordmark/real-estate/1/5.jpg"
-import winnest6 from "../assets/logo-design/wordmark/real-estate/1/6.jpg"
-import winnest7 from "../assets/logo-design/wordmark/real-estate/1/7.jpg"
-import winnest8 from "../assets/logo-design/wordmark/real-estate/1/8.jpg"
-import winnest9 from "../assets/logo-design/wordmark/real-estate/1/9.jpg"
-import winnest10 from "../assets/logo-design/wordmark/real-estate/1/10.jpg"
-import winnest11 from "../assets/logo-design/wordmark/real-estate/1/11.jpg"
-import winnest12 from "../assets/logo-design/wordmark/real-estate/1/12.jpg"
-import winnest13 from "../assets/logo-design/wordmark/real-estate/1/13.jpg"
-import winnest14 from "../assets/logo-design/wordmark/real-estate/1/14.jpg"
-import winnest15 from "../assets/logo-design/wordmark/real-estate/1/15.jpg"
-import winnest16 from "../assets/logo-design/wordmark/real-estate/1/16.jpg"
-import winnest17 from "../assets/logo-design/wordmark/real-estate/1/17.jpg"
+import nexus from "../assets/logo-design/combination-mark/tech-logo/1/1.jpg";
+import nexus2 from "../assets/logo-design/combination-mark/tech-logo/1/2.jpg";
+import nexus3 from "../assets/logo-design/combination-mark/tech-logo/1/3.jpg";
+import nexus4 from "../assets/logo-design/combination-mark/tech-logo/1/4.jpg";
+import nexus5 from "../assets/logo-design/combination-mark/tech-logo/1/5.jpg";
+import nexus6 from "../assets/logo-design/combination-mark/tech-logo/1/6.jpg";
+import nexus7 from "../assets/logo-design/combination-mark/tech-logo/1/7.jpg";
+import nexus8 from "../assets/logo-design/combination-mark/tech-logo/1/8.jpg";
+import nexus9 from "../assets/logo-design/combination-mark/tech-logo/1/9.jpg";
+import nexus10 from "../assets/logo-design/combination-mark/tech-logo/1/10.jpg";
+import nexus11 from "../assets/logo-design/combination-mark/tech-logo/1/11.jpg";
+import nexus12 from "../assets/logo-design/combination-mark/tech-logo/1/12.jpg";
+import nexus13 from "../assets/logo-design/combination-mark/tech-logo/1/13.jpg";
+import nexus14 from "../assets/logo-design/combination-mark/tech-logo/1/14.jpg";
+import nexus15 from "../assets/logo-design/combination-mark/tech-logo/1/15.jpg";
+import nexus16 from "../assets/logo-design/combination-mark/tech-logo/1/16.jpg";
+import nexus17 from "../assets/logo-design/combination-mark/tech-logo/1/17.jpg";
+import nexus18 from "../assets/logo-design/combination-mark/tech-logo/1/18.jpg";
+import nexus19 from "../assets/logo-design/combination-mark/tech-logo/1/19.jpg";
+import nexus20 from "../assets/logo-design/combination-mark/tech-logo/1/20.jpg";
+import nexus21 from "../assets/logo-design/combination-mark/tech-logo/1/21.jpg";
+import nexus22 from "../assets/logo-design/combination-mark/tech-logo/1/22.jpg";
+import nexus23 from "../assets/logo-design/combination-mark/tech-logo/1/23.jpg";
 
-import nexus from "../assets/logo-design/combination-mark/tech-logo/1/1.jpg"
-import nexus2 from "../assets/logo-design/combination-mark/tech-logo/1/2.jpg"
-import nexus3 from "../assets/logo-design/combination-mark/tech-logo/1/3.jpg"
-import nexus4 from "../assets/logo-design/combination-mark/tech-logo/1/4.jpg"
-import nexus5 from "../assets/logo-design/combination-mark/tech-logo/1/5.jpg"
-import nexus6 from "../assets/logo-design/combination-mark/tech-logo/1/6.jpg"
-import nexus7 from "../assets/logo-design/combination-mark/tech-logo/1/7.jpg"
-import nexus8 from "../assets/logo-design/combination-mark/tech-logo/1/8.jpg"
-import nexus9 from "../assets/logo-design/combination-mark/tech-logo/1/9.jpg"
-import nexus10 from "../assets/logo-design/combination-mark/tech-logo/1/10.jpg"
-import nexus11 from "../assets/logo-design/combination-mark/tech-logo/1/11.jpg"
-import nexus12 from "../assets/logo-design/combination-mark/tech-logo/1/12.jpg"
-import nexus13 from "../assets/logo-design/combination-mark/tech-logo/1/13.jpg"
-import nexus14 from "../assets/logo-design/combination-mark/tech-logo/1/14.jpg"
-import nexus15 from "../assets/logo-design/combination-mark/tech-logo/1/15.jpg"
-import nexus16 from "../assets/logo-design/combination-mark/tech-logo/1/16.jpg"
-import nexus17 from "../assets/logo-design/combination-mark/tech-logo/1/17.jpg"
-import nexus18 from "../assets/logo-design/combination-mark/tech-logo/1/18.jpg"
-import nexus19 from "../assets/logo-design/combination-mark/tech-logo/1/19.jpg"
-import nexus20 from "../assets/logo-design/combination-mark/tech-logo/1/20.jpg"
-import nexus21 from "../assets/logo-design/combination-mark/tech-logo/1/21.jpg"
-import nexus22 from "../assets/logo-design/combination-mark/tech-logo/1/22.jpg"
-import nexus23 from "../assets/logo-design/combination-mark/tech-logo/1/23.jpg"
+import momentum from "../assets/logo-design/abstrack-mark/men-fashion/1/1.jpg";
+import momentum2 from "../assets/logo-design/abstrack-mark/men-fashion/1/2.jpg";
+import momentum3 from "../assets/logo-design/abstrack-mark/men-fashion/1/3.jpg";
+import momentum4 from "../assets/logo-design/abstrack-mark/men-fashion/1/4.jpg";
+import momentum5 from "../assets/logo-design/abstrack-mark/men-fashion/1/5.jpg";
+import momentum6 from "../assets/logo-design/abstrack-mark/men-fashion/1/6.jpg";
+import momentum7 from "../assets/logo-design/abstrack-mark/men-fashion/1/7.jpg";
+import momentum8 from "../assets/logo-design/abstrack-mark/men-fashion/1/8.jpg";
+import momentum9 from "../assets/logo-design/abstrack-mark/men-fashion/1/9.jpg";
+import momentum10 from "../assets/logo-design/abstrack-mark/men-fashion/1/10.jpg";
+import momentum11 from "../assets/logo-design/abstrack-mark/men-fashion/1/11.jpg";
+import momentum12 from "../assets/logo-design/abstrack-mark/men-fashion/1/12.jpg";
+import momentum13 from "../assets/logo-design/abstrack-mark/men-fashion/1/13.jpg";
+import momentum14 from "../assets/logo-design/abstrack-mark/men-fashion/1/14.jpg";
+import momentum15 from "../assets/logo-design/abstrack-mark/men-fashion/1/15.jpg";
+import momentum16 from "../assets/logo-design/abstrack-mark/men-fashion/1/16.jpg";
+import momentum17 from "../assets/logo-design/abstrack-mark/men-fashion/1/17.jpg";
+import momentum18 from "../assets/logo-design/abstrack-mark/men-fashion/1/18.jpg";
+import momentum19 from "../assets/logo-design/abstrack-mark/men-fashion/1/19.jpg";
+import momentum20 from "../assets/logo-design/abstrack-mark/men-fashion/1/20.jpg";
+import momentum21 from "../assets/logo-design/abstrack-mark/men-fashion/1/21.jpg";
+import momentum22 from "../assets/logo-design/abstrack-mark/men-fashion/1/22.jpg";
 
-import momentum from "../assets/logo-design/abstrack-mark/men-fashion/1/1.jpg"
-import momentum2 from "../assets/logo-design/abstrack-mark/men-fashion/1/2.jpg"
-import momentum3 from "../assets/logo-design/abstrack-mark/men-fashion/1/3.jpg"
-import momentum4 from "../assets/logo-design/abstrack-mark/men-fashion/1/4.jpg"
-import momentum5 from "../assets/logo-design/abstrack-mark/men-fashion/1/5.jpg"
-import momentum6 from "../assets/logo-design/abstrack-mark/men-fashion/1/6.jpg"
-import momentum7 from "../assets/logo-design/abstrack-mark/men-fashion/1/7.jpg"
-import momentum8 from "../assets/logo-design/abstrack-mark/men-fashion/1/8.jpg"
-import momentum9 from "../assets/logo-design/abstrack-mark/men-fashion/1/9.jpg"
-import momentum10 from "../assets/logo-design/abstrack-mark/men-fashion/1/10.jpg"
-import momentum11 from "../assets/logo-design/abstrack-mark/men-fashion/1/11.jpg"
-import momentum12 from "../assets/logo-design/abstrack-mark/men-fashion/1/12.jpg"
-import momentum13 from "../assets/logo-design/abstrack-mark/men-fashion/1/13.jpg"
-import momentum14 from "../assets/logo-design/abstrack-mark/men-fashion/1/14.jpg"
-import momentum15 from "../assets/logo-design/abstrack-mark/men-fashion/1/15.jpg"
-import momentum16 from "../assets/logo-design/abstrack-mark/men-fashion/1/16.jpg"
-import momentum17 from "../assets/logo-design/abstrack-mark/men-fashion/1/17.jpg"
-import momentum18 from "../assets/logo-design/abstrack-mark/men-fashion/1/18.jpg"
-import momentum19 from "../assets/logo-design/abstrack-mark/men-fashion/1/19.jpg"
-import momentum20 from "../assets/logo-design/abstrack-mark/men-fashion/1/20.jpg"
-import momentum21 from "../assets/logo-design/abstrack-mark/men-fashion/1/21.jpg"
-import momentum22 from "../assets/logo-design/abstrack-mark/men-fashion/1/22.jpg"
+import bloodDonation1 from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg";
+import bloodDonation2 from "../assets/logo-design/combination-mark/health-care-logo/1/2.jpg";
+import bloodDonation3 from "../assets/logo-design/combination-mark/health-care-logo/1/3.jpg";
+import bloodDonation4 from "../assets/logo-design/combination-mark/health-care-logo/1/4.jpg";
 
-import bloodDonation1 from "../assets/logo-design/combination-mark/health-care-logo/1/1.jpg"
-import bloodDonation2 from "../assets/logo-design/combination-mark/health-care-logo/1/2.jpg"
-import bloodDonation3 from "../assets/logo-design/combination-mark/health-care-logo/1/3.jpg"
-import bloodDonation4 from "../assets/logo-design/combination-mark/health-care-logo/1/4.jpg"
+import boldpath from "../assets/logo-design/brand-guidelines/letter-bp/1/1.jpg";
+import boldpath2 from "../assets/logo-design/brand-guidelines/letter-bp/1/2.jpg";
+import boldpath3 from "../assets/logo-design/brand-guidelines/letter-bp/1/3.jpg";
+import boldpath4 from "../assets/logo-design/brand-guidelines/letter-bp/1/4.jpg";
+import boldpath5 from "../assets/logo-design/brand-guidelines/letter-bp/1/5.jpg";
+import boldpath6 from "../assets/logo-design/brand-guidelines/letter-bp/1/6.jpg";
+import boldpath7 from "../assets/logo-design/brand-guidelines/letter-bp/1/7.jpg";
+import boldpath8 from "../assets/logo-design/brand-guidelines/letter-bp/1/8.jpg";
+import boldpath9 from "../assets/logo-design/brand-guidelines/letter-bp/1/9.jpg";
+import boldpath10 from "../assets/logo-design/brand-guidelines/letter-bp/1/10.jpg";
+import boldpath11 from "../assets/logo-design/brand-guidelines/letter-bp/1/11.jpg";
+import boldpath12 from "../assets/logo-design/brand-guidelines/letter-bp/1/12.jpg";
+import boldpath13 from "../assets/logo-design/brand-guidelines/letter-bp/1/13.jpg";
+import boldpath14 from "../assets/logo-design/brand-guidelines/letter-bp/1/14.jpg";
+import boldpath15 from "../assets/logo-design/brand-guidelines/letter-bp/1/15.jpg";
+import boldpath16 from "../assets/logo-design/brand-guidelines/letter-bp/1/16.jpg";
+import boldpath17 from "../assets/logo-design/brand-guidelines/letter-bp/1/17.jpg";
+import boldpath18 from "../assets/logo-design/brand-guidelines/letter-bp/1/18.jpg";
+import boldpath19 from "../assets/logo-design/brand-guidelines/letter-bp/1/19.jpg";
+import boldpath20 from "../assets/logo-design/brand-guidelines/letter-bp/1/20.jpg";
+import boldpath21 from "../assets/logo-design/brand-guidelines/letter-bp/1/21.jpg";
+import boldpath22 from "../assets/logo-design/brand-guidelines/letter-bp/1/22.jpg";
+import boldpath23 from "../assets/logo-design/brand-guidelines/letter-bp/1/23.jpg";
+import boldpath24 from "../assets/logo-design/brand-guidelines/letter-bp/1/24.jpg";
+import boldpath25 from "../assets/logo-design/brand-guidelines/letter-bp/1/25.jpg";
+import boldpath26 from "../assets/logo-design/brand-guidelines/letter-bp/1/26.jpg";
+import boldpath27 from "../assets/logo-design/brand-guidelines/letter-bp/1/27.jpg";
+import boldpath28 from "../assets/logo-design/brand-guidelines/letter-bp/1/28.jpg";
+import boldpath29 from "../assets/logo-design/brand-guidelines/letter-bp/1/29.jpg";
+import boldpath30 from "../assets/logo-design/brand-guidelines/letter-bp/1/30.jpg";
+import boldpath31 from "../assets/logo-design/brand-guidelines/letter-bp/1/31.jpg";
+import boldpath32 from "../assets/logo-design/brand-guidelines/letter-bp/1/32.jpg";
+import boldpath33 from "../assets/logo-design/brand-guidelines/letter-bp/1/33.jpg";
+import boldpath34 from "../assets/logo-design/brand-guidelines/letter-bp/1/34.jpg";
+import boldpath35 from "../assets/logo-design/brand-guidelines/letter-bp/1/35.jpg";
+import boldpath36 from "../assets/logo-design/brand-guidelines/letter-bp/1/36.jpg";
+import boldpath37 from "../assets/logo-design/brand-guidelines/letter-bp/1/37.jpg";
+import boldpath38 from "../assets/logo-design/brand-guidelines/letter-bp/1/38.jpg";
+import boldpath39 from "../assets/logo-design/brand-guidelines/letter-bp/1/39.jpg";
+import boldpath40 from "../assets/logo-design/brand-guidelines/letter-bp/1/40.jpg";
+import boldpath41 from "../assets/logo-design/brand-guidelines/letter-bp/1/41.jpg";
+import boldpath42 from "../assets/logo-design/brand-guidelines/letter-bp/1/42.jpg";
+import boldpath43 from "../assets/logo-design/brand-guidelines/letter-bp/1/43.jpg";
+import boldpath44 from "../assets/logo-design/brand-guidelines/letter-bp/1/44.jpg";
+import boldpath45 from "../assets/logo-design/brand-guidelines/letter-bp/1/45.jpg";
+import boldpath46 from "../assets/logo-design/brand-guidelines/letter-bp/1/46.jpg";
+import boldpath47 from "../assets/logo-design/brand-guidelines/letter-bp/1/47.jpg";
 
-import boldpath from "../assets/logo-design/brand-guidelines/letter-bp/1/1.jpg"
-import boldpath2 from "../assets/logo-design/brand-guidelines/letter-bp/1/2.jpg"
-import boldpath3 from "../assets/logo-design/brand-guidelines/letter-bp/1/3.jpg"
-import boldpath4 from "../assets/logo-design/brand-guidelines/letter-bp/1/4.jpg"
-import boldpath5 from "../assets/logo-design/brand-guidelines/letter-bp/1/5.jpg"
-import boldpath6 from "../assets/logo-design/brand-guidelines/letter-bp/1/6.jpg"
-import boldpath7 from "../assets/logo-design/brand-guidelines/letter-bp/1/7.jpg"
-import boldpath8 from "../assets/logo-design/brand-guidelines/letter-bp/1/8.jpg"
-import boldpath9 from "../assets/logo-design/brand-guidelines/letter-bp/1/9.jpg"
-import boldpath10 from "../assets/logo-design/brand-guidelines/letter-bp/1/10.jpg"
-import boldpath11 from "../assets/logo-design/brand-guidelines/letter-bp/1/11.jpg"
-import boldpath12 from "../assets/logo-design/brand-guidelines/letter-bp/1/12.jpg"
-import boldpath13 from "../assets/logo-design/brand-guidelines/letter-bp/1/13.jpg"
-import boldpath14 from "../assets/logo-design/brand-guidelines/letter-bp/1/14.jpg"
-import boldpath15 from "../assets/logo-design/brand-guidelines/letter-bp/1/15.jpg"
-import boldpath16 from "../assets/logo-design/brand-guidelines/letter-bp/1/16.jpg"
-import boldpath17 from "../assets/logo-design/brand-guidelines/letter-bp/1/17.jpg"
-import boldpath18 from "../assets/logo-design/brand-guidelines/letter-bp/1/18.jpg"
-import boldpath19 from "../assets/logo-design/brand-guidelines/letter-bp/1/19.jpg"
-import boldpath20 from "../assets/logo-design/brand-guidelines/letter-bp/1/20.jpg"
-import boldpath21 from "../assets/logo-design/brand-guidelines/letter-bp/1/21.jpg"
-import boldpath22 from "../assets/logo-design/brand-guidelines/letter-bp/1/22.jpg"
-import boldpath23 from "../assets/logo-design/brand-guidelines/letter-bp/1/23.jpg"
-import boldpath24 from "../assets/logo-design/brand-guidelines/letter-bp/1/24.jpg"
-import boldpath25 from "../assets/logo-design/brand-guidelines/letter-bp/1/25.jpg"
-import boldpath26 from "../assets/logo-design/brand-guidelines/letter-bp/1/26.jpg"
-import boldpath27 from "../assets/logo-design/brand-guidelines/letter-bp/1/27.jpg"
-import boldpath28 from "../assets/logo-design/brand-guidelines/letter-bp/1/28.jpg"
-import boldpath29 from "../assets/logo-design/brand-guidelines/letter-bp/1/29.jpg"
-import boldpath30 from "../assets/logo-design/brand-guidelines/letter-bp/1/30.jpg"
-import boldpath31 from "../assets/logo-design/brand-guidelines/letter-bp/1/31.jpg"
-import boldpath32 from "../assets/logo-design/brand-guidelines/letter-bp/1/32.jpg"
-import boldpath33 from "../assets/logo-design/brand-guidelines/letter-bp/1/33.jpg"
-import boldpath34 from "../assets/logo-design/brand-guidelines/letter-bp/1/34.jpg"
-import boldpath35 from "../assets/logo-design/brand-guidelines/letter-bp/1/35.jpg"
-import boldpath36 from "../assets/logo-design/brand-guidelines/letter-bp/1/36.jpg"
-import boldpath37 from "../assets/logo-design/brand-guidelines/letter-bp/1/37.jpg"
-import boldpath38 from "../assets/logo-design/brand-guidelines/letter-bp/1/38.jpg"
-import boldpath39 from "../assets/logo-design/brand-guidelines/letter-bp/1/39.jpg"
-import boldpath40 from "../assets/logo-design/brand-guidelines/letter-bp/1/40.jpg"
-import boldpath41 from "../assets/logo-design/brand-guidelines/letter-bp/1/41.jpg"
-import boldpath42 from "../assets/logo-design/brand-guidelines/letter-bp/1/42.jpg"
-import boldpath43 from "../assets/logo-design/brand-guidelines/letter-bp/1/43.jpg"
-import boldpath44 from "../assets/logo-design/brand-guidelines/letter-bp/1/44.jpg"
-import boldpath45 from "../assets/logo-design/brand-guidelines/letter-bp/1/45.jpg"
-import boldpath46 from "../assets/logo-design/brand-guidelines/letter-bp/1/46.jpg"
-import boldpath47 from "../assets/logo-design/brand-guidelines/letter-bp/1/47.jpg"
-
-import ranova from "../assets/logo-design/brand-guidelines/letter-rn/1/pro.jpg"
-import ranova2 from "../assets/logo-design/brand-guidelines/letter-rn/1/1.jpg"
-import ranova3 from "../assets/logo-design/brand-guidelines/letter-rn/1/2.jpg"
-import ranova4 from "../assets/logo-design/brand-guidelines/letter-rn/1/3.jpg"
-import ranova5 from "../assets/logo-design/brand-guidelines/letter-rn/1/4.jpg"
-import ranova6 from "../assets/logo-design/brand-guidelines/letter-rn/1/5.jpg"
-import ranova7 from "../assets/logo-design/brand-guidelines/letter-rn/1/6.jpg"
-import ranova8 from "../assets/logo-design/brand-guidelines/letter-rn/1/7.jpg"
-import ranova9 from "../assets/logo-design/brand-guidelines/letter-rn/1/8.jpg"
-import ranova10 from "../assets/logo-design/brand-guidelines/letter-rn/1/9.jpg"
-import ranova11 from "../assets/logo-design/brand-guidelines/letter-rn/1/10.jpg"
-import ranova12 from "../assets/logo-design/brand-guidelines/letter-rn/1/11.jpg"
-import ranova13 from "../assets/logo-design/brand-guidelines/letter-rn/1/12.jpg"
-import ranova14 from "../assets/logo-design/brand-guidelines/letter-rn/1/13.jpg"
-import ranova15 from "../assets/logo-design/brand-guidelines/letter-rn/1/14.jpg"
-import ranova16 from "../assets/logo-design/brand-guidelines/letter-rn/1/15.jpg"
-import ranova17 from "../assets/logo-design/brand-guidelines/letter-rn/1/16.jpg"
-import ranova18 from "../assets/logo-design/brand-guidelines/letter-rn/1/17.jpg"
-import ranova19 from "../assets/logo-design/brand-guidelines/letter-rn/1/18.jpg"
-import ranova20 from "../assets/logo-design/brand-guidelines/letter-rn/1/19.jpg"
-import ranova21 from "../assets/logo-design/brand-guidelines/letter-rn/1/20.jpg"
-import ranova22 from "../assets/logo-design/brand-guidelines/letter-rn/1/21.jpg"
-import ranova23 from "../assets/logo-design/brand-guidelines/letter-rn/1/22.jpg"
-
-
-
-
+import ranova from "../assets/logo-design/brand-guidelines/letter-rn/1/pro.jpg";
+import ranova2 from "../assets/logo-design/brand-guidelines/letter-rn/1/1.jpg";
+import ranova3 from "../assets/logo-design/brand-guidelines/letter-rn/1/2.jpg";
+import ranova4 from "../assets/logo-design/brand-guidelines/letter-rn/1/3.jpg";
+import ranova5 from "../assets/logo-design/brand-guidelines/letter-rn/1/4.jpg";
+import ranova6 from "../assets/logo-design/brand-guidelines/letter-rn/1/5.jpg";
+import ranova7 from "../assets/logo-design/brand-guidelines/letter-rn/1/6.jpg";
+import ranova8 from "../assets/logo-design/brand-guidelines/letter-rn/1/7.jpg";
+import ranova9 from "../assets/logo-design/brand-guidelines/letter-rn/1/8.jpg";
+import ranova10 from "../assets/logo-design/brand-guidelines/letter-rn/1/9.jpg";
+import ranova11 from "../assets/logo-design/brand-guidelines/letter-rn/1/10.jpg";
+import ranova12 from "../assets/logo-design/brand-guidelines/letter-rn/1/11.jpg";
+import ranova13 from "../assets/logo-design/brand-guidelines/letter-rn/1/12.jpg";
+import ranova14 from "../assets/logo-design/brand-guidelines/letter-rn/1/13.jpg";
+import ranova15 from "../assets/logo-design/brand-guidelines/letter-rn/1/14.jpg";
+import ranova16 from "../assets/logo-design/brand-guidelines/letter-rn/1/15.jpg";
+import ranova17 from "../assets/logo-design/brand-guidelines/letter-rn/1/16.jpg";
+import ranova18 from "../assets/logo-design/brand-guidelines/letter-rn/1/17.jpg";
+import ranova19 from "../assets/logo-design/brand-guidelines/letter-rn/1/18.jpg";
+import ranova20 from "../assets/logo-design/brand-guidelines/letter-rn/1/19.jpg";
+import ranova21 from "../assets/logo-design/brand-guidelines/letter-rn/1/20.jpg";
+import ranova22 from "../assets/logo-design/brand-guidelines/letter-rn/1/21.jpg";
+import ranova23 from "../assets/logo-design/brand-guidelines/letter-rn/1/22.jpg";
 
 // for business card
 
-
-import minimalist1 from "../assets/business-card/minimalist/1/1.jpg"
-import minimalist2 from "../assets/business-card/minimalist/2/1.jpg"
-
-
+import minimalist1 from "../assets/business-card/minimalist/1/1.jpg";
+import minimalist2 from "../assets/business-card/minimalist/2/1.jpg";
 
 // for letterhead
 
-import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg"
-import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg"
-import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg"
-import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg"
-import modernandcorporate1 from "../assets/letterhead/modern&corporate/1/modern and corporate letterhead design.jpg"
-import modernanddynamiccorporate1 from "../assets/letterhead/modern&dynamic-corporate/1/modern and dynamic corporate letterhead.jpg"
-import modernandgeometriccorporate1 from "../assets/letterhead/modern&geometric-corporate/1/modern and geometric corporate letterhead.jpg"
-import modernandminimalistcorporate1 from "../assets/letterhead/modern&minimalist-corporate/1/modern and minimalist corporate letterhead.jpg"
-
-
+import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg";
+import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg";
+import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg";
+import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg";
+import modernandcorporate1 from "../assets/letterhead/modern&corporate/1/modern and corporate letterhead design.jpg";
+import modernanddynamiccorporate1 from "../assets/letterhead/modern&dynamic-corporate/1/modern and dynamic corporate letterhead.jpg";
+import modernandgeometriccorporate1 from "../assets/letterhead/modern&geometric-corporate/1/modern and geometric corporate letterhead.jpg";
+import modernandminimalistcorporate1 from "../assets/letterhead/modern&minimalist-corporate/1/modern and minimalist corporate letterhead.jpg";
 
 // for facebook cover
 
-import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg"
-import facebookcover2 from "../assets/social-cover/facebook-cover/1/2.jpg"
-import facebookcover3 from "../assets/social-cover/facebook-cover/1/3.jpg"
-
+import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg";
+import facebookcover2 from "../assets/social-cover/facebook-cover/1/2.jpg";
+import facebookcover3 from "../assets/social-cover/facebook-cover/1/3.jpg";
 
 // for banner
 
-import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg"
-
-
+import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg";
 
 import {
   ArrowLeft,
@@ -360,11 +347,6 @@ interface Project {
 }
 
 const projects: Project[] = [
-
- 
-
-
-
   {
     id: "player-logo-design-1",
     title: "Player Logo Design",
@@ -402,10 +384,6 @@ const projects: Project[] = [
       playerlogo17,
     ],
   },
-
-
-
-
 
   {
     id: "lettermark-W-Logo-1",
@@ -473,8 +451,6 @@ const projects: Project[] = [
     ],
   },
 
-
-
   {
     id: "combination-mark-naturelogo-1",
     title: "ArborSphere: Cultivating Growth & Sustainability",
@@ -492,7 +468,6 @@ const projects: Project[] = [
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
     images: [
-
       arborSphere1,
       arborSphere2,
       arborSphere3,
@@ -514,8 +489,7 @@ const projects: Project[] = [
       arborSphere19,
       arborSphere20,
       arborSphere21,
-      arborSphere22
-
+      arborSphere22,
     ],
   },
 
@@ -536,7 +510,6 @@ const projects: Project[] = [
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
     images: [
-
       mpPlayer,
       mpPlayer2,
       mpPlayer3,
@@ -549,8 +522,7 @@ const projects: Project[] = [
       mpPlayer10,
       mpPlayer11,
       mpPlayer12,
-      mpPlayer13
-
+      mpPlayer13,
     ],
   },
   {
@@ -588,12 +560,8 @@ const projects: Project[] = [
       Uniflora16,
       Uniflora17,
       Uniflora18,
-
     ],
   },
-
-
-
 
   // business card details
 
@@ -613,10 +581,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      minimalist1,
-
-    ],
+    images: [minimalist1],
   },
 
   {
@@ -635,10 +600,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      minimalist2,
-
-    ],
+    images: [minimalist2],
   },
 
   {
@@ -674,7 +636,6 @@ const projects: Project[] = [
       zepeq14,
       zepeq15,
       zepeq16,
-
     ],
   },
 
@@ -709,8 +670,7 @@ const projects: Project[] = [
       player12,
       player13,
       player14,
-      player15
-
+      player15,
     ],
   },
 
@@ -747,7 +707,6 @@ const projects: Project[] = [
       ecogrow14,
       ecogrow15,
       ecogrow16,
-
     ],
   },
 
@@ -785,10 +744,8 @@ const projects: Project[] = [
       winnest15,
       winnest16,
       winnest17,
-
     ],
   },
-
 
   {
     id: "combination-mark-techlogo-1",
@@ -830,15 +787,10 @@ const projects: Project[] = [
       nexus21,
       nexus22,
       nexus23,
-
     ],
   },
 
-
   // for letterhead
-
-
-
 
   {
     id: "modern-letterhead-1",
@@ -856,13 +808,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modern1,
-
-    ],
+    images: [modern1],
   },
-
-
 
   {
     id: "minimalist-corporate-letterhead-1",
@@ -880,9 +827,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      minimalistandcorporate1,
-    ],
+    images: [minimalistandcorporate1],
   },
 
   {
@@ -901,11 +846,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernandboldcorporate1,
-    ],
+    images: [modernandboldcorporate1],
   },
-
 
   {
     id: "minimalist-bold-corporate-letterhead-2",
@@ -923,9 +865,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernandboldcorporate2,
-    ],
+    images: [modernandboldcorporate2],
   },
 
   {
@@ -944,11 +884,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernandcorporate1,
-    ],
+    images: [modernandcorporate1],
   },
-
 
   {
     id: "modern&dynamic-corporate-letterhead-1",
@@ -966,9 +903,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernanddynamiccorporate1,
-    ],
+    images: [modernanddynamiccorporate1],
   },
 
   {
@@ -987,9 +922,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernandgeometriccorporate1,
-    ],
+    images: [modernandgeometriccorporate1],
   },
 
   {
@@ -1008,12 +941,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      modernandminimalistcorporate1,
-    ],
+    images: [modernandminimalistcorporate1],
   },
-
-
 
   {
     id: "abstract-mark-men-fashion-1",
@@ -1057,12 +986,6 @@ const projects: Project[] = [
     ],
   },
 
-
-
-
-
-
-
   {
     id: "facebook-cover-1",
     title: "Professional Facebook Cover Pack",
@@ -1079,12 +1002,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      facebookcover1,
-    ],
+    images: [facebookcover1],
   },
-
-
 
   {
     id: "promotional-banner-1",
@@ -1102,12 +1021,8 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      promotionalbanner1,
-    ],
+    images: [promotionalbanner1],
   },
-
-
 
   {
     id: "combination-mark-health-care-logo-1",
@@ -1125,12 +1040,7 @@ const projects: Project[] = [
     outcome:
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
-    images: [
-      bloodDonation1,
-      bloodDonation2,
-      bloodDonation3,
-      bloodDonation4,
-    ],
+    images: [bloodDonation1, bloodDonation2, bloodDonation3, bloodDonation4],
   },
 
   {
@@ -1200,8 +1110,6 @@ const projects: Project[] = [
     ],
   },
 
-
-
   {
     id: "ranova-brand-guidelines",
     title: "Ranova - Style Without Limits",
@@ -1219,7 +1127,7 @@ const projects: Project[] = [
       "The retouched images were used in the brand's e-commerce store, social media campaigns, and print advertisements. The client reported a 25% increase in online sales conversion rates after implementing the new product imagery.",
     tools: ["Adobe Photoshop", "Capture One", "Adobe Lightroom"],
     images: [
-     ranova,
+      ranova,
       ranova2,
       ranova3,
       ranova4,
@@ -1244,7 +1152,6 @@ const projects: Project[] = [
       ranova23,
     ],
   },
-
 ];
 
 const PortfolioDetails = () => {

@@ -3,42 +3,134 @@ import { useState } from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import GoToTop from "../components/home/GoToTop";
-import {
-    ArrowLeft,
-    Calendar,
-    Clock,
-    ExternalLink,
-    Tag,
-    Wrench,
-  } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+
+
+// for logo
+import playerlogo01 from "../assets/logo-design/abstrack-mark/player-logo-1/1.jpg";
+import lettermarkw1 from "../assets/logo-design/lettermark-logo/letter-w/1/1.jpg";
+import lettermarkz1 from "../assets/logo-design/lettermark-logo/letter-z/1/1.jpg";
+import arborSphere1 from "../assets/logo-design/combination-mark/nature-logo/1/1.jpg";
+
+// for business card
+
+import minimalist1 from "../assets/business-card/minimalist/1/1.jpg";
+import minimalist2 from "../assets/business-card/minimalist/2/1.jpg";
+
+// for letterhead
+
+import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg";
+import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg";
+import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg";
+import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg";
+
+// for facebook cover
+
+import facebookcover1 from "../assets/social-cover/facebook-cover/1/1.jpg";
+
+// for banner
+
+import promotionalbanner1 from "../assets/banner/promotional/1/1.jpg";
+
 
 // Example projects array (replace with your actual data or import it)
 const projects = [
   {
     id: 1,
-    slug: "project-1",
-    titles: ["Logo Design"],
+    slug: "player-logo-design",
+    titles: ["Player Logo Design"],
     categories: ["logo-design"],
     tags: ["branding", "creative", "design"],
-    image: "/path/to/image1.jpg",
+    image: playerlogo01,
   },
   {
     id: 2,
-    slug: "project-2",
-    titles: ["Business Card"],
-    categories: ["business-card"],
-    tags: ["corporate", "minimal", "print"],
-    image: "/path/to/image2.jpg",
+    slug: "lettermark-w-logo",
+    titles: ["Lettermark W Logo"],
+    categories: ["logo-design"],
+    tags: ["branding", "creative", "design"],
+    image: lettermarkw1,
   },
   {
     id: 3,
-    slug: "project-3",
-    titles: ["Web Design"],
-    categories: ["web-design"],
-    tags: ["responsive", "modern", "ui/ux"],
-    image: "/path/to/image3.jpg",
+    slug: "lettermark-z-logo",
+    titles: ["Lettermark Z Logo"],
+    categories: ["logo-design"],
+    tags: ["branding", "creative", "design"],
+    image: lettermarkz1,
   },
-  // Add more projects here
+  {
+    id: 4,
+    slug: "nature-logo",
+    titles: ["Nature Logo"],
+    categories: ["logo-design"],
+    tags: ["branding", "creative", "nature"],
+    image: arborSphere1,
+  },
+  {
+    id: 5,
+    titles: ["Modern Letterhead Design"],
+    categories: ["business-card"],
+    tags: ["Letterhead", "Modern"],
+    image: minimalist1,
+    slug: "modern-letterhead-1",
+  },
+  {
+    id: 6,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["business-card"],
+    tags: ["Business Card", "Minimalist", "Print"],
+    image: minimalist2,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 7,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Letterhead Design"],
+    tags: ["Business Card", "Minimalist"],
+    image: modern1,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 8,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Letterhead Design"],
+    tags: ["Business Card", "Minimalist"],
+    image: minimalistandcorporate1,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 9,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Letterhead Design"],
+    tags: ["Business Card", "Minimalist"],
+    image: modernandboldcorporate1,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 10,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Letterhead Design"],
+    tags: ["Business Card", "Minimalist"],
+    image: modernandboldcorporate2,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 11,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Social Media Cover"],
+    tags: ["Business Card", "Minimalist"],
+    image: facebookcover1,
+    slug: "minimalist-business-card-2",
+  },
+  {
+    id: 12,
+    titles: ["Minimalist Business Card Design"],
+    categories: ["Banner"],
+    tags: ["Business Card", "Minimalist"],
+    image: promotionalbanner1,
+    slug: "minimalist-business-card-2",
+  },
 ];
 
 const CategoryPage = () => {
@@ -50,10 +142,28 @@ const CategoryPage = () => {
     project.categories.includes(category || "")
   );
 
-  // Get all unique tags
+  // Define sub-filters for specific categories
+  const categorySpecificTags = {
+    "logo-design": [
+      "branding",
+      "minimal",
+      "modern",
+      "creative",
+      "modern logo",
+      "minimal logo",
+      "professional logo",
+    ],
+    "business-card": ["corporate", "print", "minimal"],
+    "web-design": ["responsive", "ui/ux", "modern"],
+    "letterhead-design": ["corporate", "branding", "stationery"],
+  };
+
+  // Get all unique tags, including category-specific tags
   const allTags = [
     "All Projects",
-    ...new Set(filteredProjects.flatMap((project) => project.tags)),
+    ...(category && categorySpecificTags[category]
+      ? categorySpecificTags[category]
+      : [...new Set(filteredProjects.flatMap((project) => project.tags))]),
   ];
 
   // Filter projects by the active tag
@@ -61,7 +171,7 @@ const CategoryPage = () => {
     activeTag === "All Projects"
       ? filteredProjects
       : filteredProjects.filter((project) =>
-          project.tags.includes(activeTag.toLowerCase())
+          project.tags.some((tag) => tag.toLowerCase() === activeTag.toLowerCase())
         );
 
   return (
@@ -69,17 +179,19 @@ const CategoryPage = () => {
       <Navbar />
 
       <div className="container mx-auto px-4 pt-32 pb-20">
-        {/* Back to Project Section Button */}
+        {/* Back to Portfolio Button */}
         <Link
-              to="/portfolio"
-              className="inline-flex items-center text-white/70 hover:text-white transition-colors mb-8"
-            >
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to Portfolio
-            </Link>
+          to="/portfolio"
+          className="inline-flex items-center text-white/70 hover:text-white transition-colors mb-8"
+        >
+          <ArrowLeft className="mr-2 h-4 w-4" /> Back to Portfolio
+        </Link>
 
         {/* Category Title */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-          {category?.charAt(0).toUpperCase() + category?.slice(1)} Projects
+          {category
+            ? `${category.charAt(0).toUpperCase() + category.slice(1)} Projects`
+            : "Projects"}
         </h1>
 
         {/* Sub-Category Tags */}
@@ -90,7 +202,7 @@ const CategoryPage = () => {
                 key={tag}
                 onClick={() => setActiveTag(tag)}
                 className={`px-4 py-2 rounded-[5px] text-sm font-medium ${
-                  tag === "All Projects" || activeTag === tag
+                  activeTag === tag
                     ? "bg-[rgb(56,132,255)] text-white" // Active button background color
                     : "bg-gray-700 text-white/70 hover:bg-gray-600 hover:text-white" // Inactive button background color
                 }`}
