@@ -13,6 +13,7 @@ import GoToTop from "./components/home/GoToTop";
 import Home from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails";
+import CategoryPage from "./pages/CategoryPage";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
@@ -58,6 +59,7 @@ const App = () => {
                   <Route path="/" element={<Home />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/portfolio/:id" element={<PortfolioDetails />} />
+                  <Route path="/portfolio/category/:category" element={<CategoryPage />} />
                   <Route path="/services" element={<Services />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/blog" element={<Blog />} />

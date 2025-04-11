@@ -52,10 +52,10 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-black transition-colors ${
+              className={`text-sm font-medium transition-colors ${
                 location.pathname === link.path
-                  ? 'text-[rgb(56,132,255)]'
-                  : 'text-white/80 hover:text-white'
+                  ? 'text-[rgb(56,132,255)]' // Blue color when active (clicked)
+                  : 'text-white/80 hover:text-gray-400' // Gray color on hover
               }`}
             >
               {link.name}
@@ -109,8 +109,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`text-lg font-medium transition-colors ${
                   location.pathname === link.path
-                    ? 'text-[rgb(56,132,255)]'
-                    : 'text-white/80'
+                    ? 'text-[rgb(56,132,255)]' // Blue color when active (clicked)
+                    : 'text-white/80 hover:text-gray-400' // Gray color on hover
                 }`}
               >
                 {link.name}
