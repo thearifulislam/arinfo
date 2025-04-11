@@ -12,20 +12,15 @@ import ZXON from "../assets/logo-design/lettermark-logo/letter-z/1/1.jpg";
 import playerlogo01 from "../assets/logo-design/abstrack-mark/player-logo-1/1.jpg";
 import arborSphere1 from "../assets/logo-design/combination-mark/nature-logo/1/1.jpg";
 
-
-
 // for business card
 import minimalist1 from "../assets/business-card/minimalist/1/1.jpg";
 import minimalist2 from "../assets/business-card/minimalist/2/1.jpg";
 
-
-
 // for letterhead
-
-import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg"
-import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg"
-import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg"
-import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg"
+import modern1 from "../assets/letterhead/modern/1/Modern Letterhead.jpg";
+import minimalistandcorporate1 from "../assets/letterhead/minimalist-corporate/1/minimalist corporate letterhead.jpg";
+import modernandboldcorporate1 from "../assets/letterhead/modern&bold-corporate/1/modern and bold corporate letterhead.jpg";
+import modernandboldcorporate2 from "../assets/letterhead/modern&bold-corporate/2/modern and bold corporate letterhead-2.jpg";
 
 interface Project {
   id: number;
@@ -85,7 +80,6 @@ const projects: Project[] = [
     image: minimalist2,
     slug: "minimalist-business-card-2",
   },
-  
   {
     id: 7,
     titles: ["Minimalist Design, Maximum Impact"],
@@ -94,7 +88,6 @@ const projects: Project[] = [
     image: modern1,
     slug: "modern-letterhead-1",
   },
-  
   {
     id: 8,
     titles: ["Minimalist Design, Maximum Impact"],
@@ -103,7 +96,6 @@ const projects: Project[] = [
     image: minimalistandcorporate1,
     slug: "minimalist-corporate-letterhead-1",
   },
-
   {
     id: 9,
     titles: ["Minimalist Design, Maximum Impact"],
@@ -112,12 +104,11 @@ const projects: Project[] = [
     image: modernandboldcorporate1,
     slug: "minimalist-bold-corporate-letterhead-1",
   },
-
   {
     id: 10,
-    titles: ["Minimalist Design, Maximum Impact"],
+    titles: ["Letterhead Design, Maximum Impact"],
     categories: ["Letterhead Design"],
-    tags: ["Letterhead", "Minimalist"],
+    tags: ["letterhead", "Minimalist"],
     image: modernandboldcorporate2,
     slug: "minimalist-bold-corporate-letterhead-2",
   },
@@ -129,8 +120,15 @@ const Portfolio = () => {
 
   // Filter projects based on the search query
   const filteredProjects = searchQuery
-    ? projects.filter((project) =>
-        project.titles[0].toLowerCase().includes(searchQuery.toLowerCase())
+    ? projects.filter(
+        (project) =>
+          project.titles[0].toLowerCase().includes(searchQuery.toLowerCase()) ||
+          project.categories.some((category) =>
+            category.toLowerCase().includes(searchQuery.toLowerCase())
+          ) ||
+          project.tags.some((tag) =>
+            tag.toLowerCase().includes(searchQuery.toLowerCase())
+          )
       )
     : projects;
 
@@ -199,7 +197,7 @@ const Portfolio = () => {
                 >
                   {/* Highlighted Category Title */}
                   <div className="flex justify-between items-center mb-6">
-                    <h2 className="text-xl font-bold text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md">
+                    <h2 className="text-lg md:text-xl font-bold text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md shadow-md whitespace-nowrap">
                       {category.charAt(0).toUpperCase() + category.slice(1)}
                     </h2>
                     <button
@@ -216,24 +214,39 @@ const Portfolio = () => {
                   {/* Display Projects */}
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.slice(0, 6).map((project) => (
-                      <div key={project.id} className="portfolio-card group">
+                      <div
+                        key={project.id}
+                        className="portfolio-card group bg-dark-card p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                      >
                         <Link to={`/portfolio/${project.slug}`}>
-                          <div className="aspect-[4/3] overflow-hidden">
+                          <div className="aspect-[4/3] overflow-hidden rounded-lg">
                             <img
                               src={project.image}
                               alt={project.titles[0]}
-                              className="w-full h-full object-cover"
-                              loading="lazy"
+                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                             />
                           </div>
                         </Link>
-                        <div className="p-4">
-                          <h3 className="text-lg font-bold text-white">
+                        <div className="mt-4">
+                          <h3 className="text-lg font-bold text-white mb-2">
                             {project.titles[0]}
                           </h3>
+
+                          {/* Tags Section */}
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {project.tags.map((tag, index) => (
+                              <span
+                                key={index}
+                                className="text-sm font-medium text-white bg-blue-400 px-3 py-1 rounded-[5px]"
+                              >
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+
                           <Link
                             to={`/portfolio/${project.slug}`}
-                            className="text-sm font-medium text-white bg-[rgb(56,132,255)] px-4 py-2 rounded-md text-center block mt-4 hover:bg-[rgb(34,102,204)]"
+                            className="text-base font-medium text-white bg-[rgb(56,132,255)] px-6 py-3 rounded-[5px] text-center block mt-4 hover:bg-[rgb(34,102,204)] transition-colors duration-300"
                           >
                             View Details
                           </Link>
